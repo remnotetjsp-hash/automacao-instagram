@@ -1,0 +1,28 @@
+name: publicar-instagram
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publicar o que está na hora
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          MEDIA_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/media
+        run: python3 scripts/publish.py
+      - name: Salvar status da fila
+        run: |
+          git config user.name "publicador"
+          git config user.email "publicador@users.noreply.github.com"
+          git add queue/fila.csv
+          git diff --cached --quiet || (git commit -m "status da fila" && git pull --rebase -q && git push -q)

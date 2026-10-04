@@ -1,3 +1,3 @@
 id,datetime,tipo,arquivo,legenda,status,post_id,tentativas,erro
 teste001,2026-10-04T00:00:00,imagem,teste_001.png,"Existe uma diferença entre dever e estar devendo. Dever é um número no balanço; estar devendo é perder o sono, o caixa e a margem. Conteúdo informativo, sem caráter de aconselhamento jurídico.",publicado,18015848336936766,1,
-teste002,2026-10-04T00:00:00,reel,reel_teste.mp4,"Comissão de permanência não pode ser cobrada junto com juros e multa contratual (Súmula 472 do STJ). Vale conferir os encargos no cálculo da dívida, e não só o saldo final. Conteúdo informativo, sem caráter de aconselhamento jurídico.",pendente,,0,
+teste002,2026-10-04T00:00:00,reel,reel_teste.mp4,"Comissão de permanência não pode ser cobrada junto com juros e multa contratual (Súmula 472 do STJ). Vale conferir os encargos no cálculo da dívida, e não só o saldo final. Conteúdo informativo, sem caráter de aconselhamento jurídico.",publicado,17988639297113596,0,

@@ -50,13 +50,13 @@ def publicar(row):
     if row["tipo"] == "reel": p.update({"media_type": "REELS", "video_url": url, "share_to_feed": "true"})
     else: p["image_url"] = url
     cid = http("POST", f"{UID}/media", p)["id"]
-    if row["tipo"] == "reel":
-        for _ in range(60):  # até ~10 min
-            st = http("GET", cid, {"fields": "status_code"}).get("status_code")
-            if st == "FINISHED": break
-            if st in ("ERROR", "EXPIRED"): raise RuntimeError(f"processamento {st}")
-            time.sleep(10)
-        else: raise RuntimeError("timeout no processamento do vídeo")
+    # espera o Instagram terminar de processar (imagem: segundos; vídeo: até ~10 min)
+    for _ in range(60):
+        time.sleep(5 if row["tipo"] != "reel" else 10)
+        st = http("GET", cid, {"fields": "status_code"}).get("status_code")
+        if st == "FINISHED": break
+        if st in ("ERROR", "EXPIRED"): raise RuntimeError(f"processamento {st}")
+    else: raise RuntimeError("timeout no processamento da mídia")
     return http("POST", f"{UID}/media_publish", {"creation_id": cid})["id"]
 
 def main():

@@ -1,1 +1,2 @@
 id,datetime,tipo,arquivo,legenda,status,post_id,tentativas,erro
+teste001,2026-10-04T00:00:00,imagem,teste_001.png,"Existe uma diferença entre dever e estar devendo. Dever é um número no balanço; estar devendo é perder o sono, o caixa e a margem. Conteúdo informativo, sem caráter de aconselhamento jurídico.",pendente,,0,

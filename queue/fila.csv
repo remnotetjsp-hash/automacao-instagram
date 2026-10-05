@@ -1,14 +1,14 @@
 id,datetime,tipo,arquivo,legenda,status,post_id,tentativas,erro
 teste001,2026-10-04T00:00:00,imagem,teste_001.png,"Existe uma diferença entre dever e estar devendo. Dever é um número no balanço; estar devendo é perder o sono, o caixa e a margem. Conteúdo informativo, sem caráter de aconselhamento jurídico.",publicado,18015848336936766,1,
 teste002,2026-10-04T00:00:00,reel,reel_teste.mp4,"Comissão de permanência não pode ser cobrada junto com juros e multa contratual (Súmula 472 do STJ). Vale conferir os encargos no cálculo da dívida, e não só o saldo final. Conteúdo informativo, sem caráter de aconselhamento jurídico.",publicado,17988639297113596,0,
-<<<<<<< Updated upstream
-=======
+<<<<<<< Updated upstream,,,,,,,,
+=======,,,,,,,,
 tw_001,2026-10-05T07:00:00,imagem,tw/tw_001.jpg,"Perder uma causa, um contrato ou um cliente dói, mas é ali que está a informação mais valiosa. Sente, reveja o que falhou: prazo, documento, estratégia. No ganho fácil quase ninguém revisa nada, e é assim que o mesmo erro volta.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#aprendizado #aprendercomerros #evolucao #empreendedorismo #advocacia",pendente,,0,
+#aprendizado #aprendercomerros #evolucao #empreendedorismo #advocacia",publicado,18287475319290148,0,
 info_001,2026-10-05T07:32:00,imagem,info/info_001.jpg,"Dúvida que escuto muito. A resposta curta é que pagar só parte da fatura costuma gerar juros sobre o que sobrou, então a conta do mês seguinte vem maior do que parece.
 
 Leonardo Rezende
@@ -4241,4 +4241,4 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #crescimentodaempresa #capitaldegiro #fluxodecaixa #financasempresariais #empresarios",pendente,,0,
->>>>>>> Stashed changes
+>>>>>>> Stashed changes,,,,,,,,

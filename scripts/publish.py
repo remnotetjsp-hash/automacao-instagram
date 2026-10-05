@@ -59,8 +59,37 @@ def publicar(row):
     else: raise RuntimeError("timeout no processamento da mídia")
     return http("POST", f"{UID}/media_publish", {"creation_id": cid})["id"]
 
+def ler_csv(path):
+    if not os.path.exists(path): return []
+    return list(csv.DictReader(open(path, encoding="utf-8", newline="")))
+
+def preparar(rows):
+    """Limpa marcas de conflito do git, aplica substituições (queue/substituicoes.csv) e extras (queue/extras.csv).
+    Devolve True se mudou alguma coisa."""
+    mudou = False
+    ok = [r for r in rows if not (r.get("id") or "").startswith(("<<<<<<<", "=======", ">>>>>>>")) and (r.get("id") or "").strip()]
+    if len(ok) != len(rows): rows[:] = ok; mudou = True
+    qdir = os.path.dirname(FILA)
+    for s in ler_csv(os.path.join(qdir, "substituicoes.csv")):
+        for r in rows:
+            if r["id"] == s["id_antigo"] and r["status"] in ("pendente", "erro"):
+                r.update({"id": s["id"], "arquivo": s["arquivo"], "legenda": s["legenda"], "status": "pendente", "tentativas": "0", "erro": ""})
+                print("substituído:", s["id_antigo"], "→", s["id"]); mudou = True
+    ids = {r["id"] for r in rows}
+    for e in ler_csv(os.path.join(qdir, "extras.csv")):
+        if e["id"] not in ids:
+            rows.append({"id": e["id"], "datetime": e["datetime"], "tipo": e["tipo"], "arquivo": e["arquivo"], "legenda": e["legenda"],
+                         "status": "pendente", "post_id": "", "tentativas": "0", "erro": ""})
+            print("extra adicionado:", e["id"], e["datetime"]); mudou = True
+    return mudou
+
+def salvar(rows):
+    with open(FILA, "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=CAMPOS); w.writeheader(); w.writerows(rows)
+
 def main():
-    rows = list(csv.DictReader(open(FILA, encoding="utf-8", newline="")))
+    rows = ler_csv(FILA)
+    if preparar(rows) and not DRY: salvar(rows)
     agora = datetime.now(SP)
     pend = [r for r in rows if r["status"] in ("pendente", "erro") and int(r["tentativas"] or 0) < MAX_TENT
             and datetime.fromisoformat(r["datetime"]).replace(tzinfo=SP) <= agora]
@@ -81,7 +110,6 @@ def main():
             r["tentativas"] = str(int(r["tentativas"] or 0) + 1); r["status"] = "erro"; r["erro"] = str(e)[:300]
             print("  ERRO:", e)
         mudou = True
-        with open(FILA, "w", encoding="utf-8", newline="") as f:  # grava a cada post para não perder progresso
-            w = csv.DictWriter(f, fieldnames=CAMPOS); w.writeheader(); w.writerows(rows)
+        salvar(rows)  # grava a cada post para não perder progresso
 
 if __name__ == "__main__": main()

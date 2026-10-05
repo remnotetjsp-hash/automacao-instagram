@@ -1,8 +1,6 @@
 id,datetime,tipo,arquivo,legenda,status,post_id,tentativas,erro
 teste001,2026-10-04T00:00:00,imagem,teste_001.png,"Existe uma diferença entre dever e estar devendo. Dever é um número no balanço; estar devendo é perder o sono, o caixa e a margem. Conteúdo informativo, sem caráter de aconselhamento jurídico.",publicado,18015848336936766,1,
 teste002,2026-10-04T00:00:00,reel,reel_teste.mp4,"Comissão de permanência não pode ser cobrada junto com juros e multa contratual (Súmula 472 do STJ). Vale conferir os encargos no cálculo da dívida, e não só o saldo final. Conteúdo informativo, sem caráter de aconselhamento jurídico.",publicado,17988639297113596,0,
-<<<<<<< Updated upstream,,,,,,,,
-=======,,,,,,,,
 tw_001,2026-10-05T07:00:00,imagem,tw/tw_001.jpg,"Perder uma causa, um contrato ou um cliente dói, mas é ali que está a informação mais valiosa. Sente, reveja o que falhou: prazo, documento, estratégia. No ganho fácil quase ninguém revisa nada, e é assim que o mesmo erro volta.
 
 Leonardo Rezende
@@ -55,12 +53,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #gratidao #equilibrio #mentalidadepositiva #advocacia #empresario",publicado,18076652870482324,0,
-info_003,2026-10-05T11:16:00,imagem,info/info_003.jpg,"Muita gente imagina que a defesa começa na audiência. Na prática, o texto da contestação costuma pesar bastante, e por isso cada fato e cada documento ali têm uma função.
+info_343,2026-10-05T11:16:00,imagem,info/info_343.jpg,"O banco também quer receber. Quem chega com números claros e uma proposta realista costuma ser ouvido com mais atenção. Negociar é conversa, não favor.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#contestacao #defesajudicial #processocivil #dividasempresariais #advocacia",pendente,,0,
+#negociacaodedividas #direitobancario #gestaodepassivos #dividasempresariais #credito",publicado,18116435854972896,0,
 tw_005,2026-10-05T11:48:00,imagem,tw/tw_005.jpg,"O começo atrai muita gente, e o meio do caminho filtra. Quem continua entregando depois que a empolgação passa vira referência quase sem querer. Não é sobre ser o mais rápido, é sobre ainda estar de pé.
 
 Leonardo Rezende
@@ -89,12 +87,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #procrastinacao #produtividade #organizacao #dividasempresariais #gestaodepassivos",pendente,,0,
-ex_l1_02,2026-10-05T13:56:00,imagem,info/ex_l1_02.jpg,"O dinheiro é consequência de fazer bem feito. Primeiro vêm o trabalho cuidadoso, o prazo cumprido e o cliente bem atendido. O resultado financeiro costuma chegar depois, como efeito disso.
+info_223,2026-10-05T13:56:00,imagem,info/info_223.jpg,"Esse medo é comum em cobranças e costuma aparecer em mensagens de pressão. Dívida comum gera cobrança e processo, não prisão. Quem se sente ameaçado deve guardar a mensagem e buscar orientação.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#atendimentoaocliente #boaspraticas #advocacia #empresarios #gestaodepassivos",pendente,,0,
+#prisaopordivida #cobrancaabusiva #ameacadecobranca #advocacia #empresarios",pendente,,0,
 tw_007,2026-10-05T14:28:00,imagem,tw/tw_007.jpg,"Tratar bem o cliente grande é fácil. O teste é como você fala com o estagiário, o entregador, o funcionário novo ou o devedor que atrasou. Reputação se constrói muito nesses momentos em que ninguém está medindo.
 
 Leonardo Rezende
@@ -113,12 +111,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #trabalhobemfeito #prazos #reputacao #financaspj #dividasempresariais",pendente,,0,
-info_006,2026-10-05T16:04:00,imagem,info/info_006.jpg,"O número único do processo é a chave da consulta pública. Olhar o andamento com regularidade e anotar as datas importantes é um hábito simples que protege o prazo.
+info_340,2026-10-05T16:04:00,imagem,info/info_340.jpg,"Em dívida grande e de prazo longo, um ponto percentual de juros muda o total em milhares de reais. Vale negociar a taxa antes de fechar.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#numerounicodoprocesso #consultaprocessual #andamentoprocessual #processocivil #advocacia",pendente,,0,
+#juros #negociacaodedividas #gestaodepassivos #dividasempresariais #credito",pendente,,0,
 tw_009,2026-10-05T16:36:00,imagem,tw/tw_009.jpg,"Nem toda crítica merece resposta, e nem toda crítica merece ir para o lixo. Separe o tom da mensagem. Se por trás de um tom ruim existe um ponto real, aproveite. O resto, deixe passar sem gastar energia.
 
 Leonardo Rezende
@@ -145,12 +143,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #equilibrio #descanso #produtividade #gestaodepassivos #mentalidade",pendente,,0,
-ex_l1_03,2026-10-05T18:44:00,imagem,info/ex_l1_03.jpg,"Coisas simples que demorei para aprender sobre trabalho bem feito: conferir duas vezes, avisar antes de ser cobrado, escrever claro e cumprir o que foi combinado. Nada sofisticado, mas faz toda a diferença.
+info_224,2026-10-05T18:44:00,imagem,info/info_224.jpg,"Muita gente tem medo de ver o salário bloqueado por dívida comum. A lei protege, em regra, o que sustenta a pessoa e a família, mas as exceções existem e cada situação é analisada.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#trabalhobemfeito #rotinadeescritorio #advocacia #empresarios #compromisso",pendente,,0,
+#impenhorabilidade #bloqueiodesalario #penhora #dividas #direitoprocessual",pendente,,0,
 tw_011,2026-10-06T07:00:00,imagem,tw/tw_011.jpg,"Quase nenhuma empresa sai do aperto num único movimento. É conferir o caixa toda semana, renegociar uma dívida por vez, cumprir o que foi combinado. Dia razoável repetido pesa mais do que um dia perfeito isolado.
 
 Leonardo Rezende
@@ -203,12 +201,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #comparacao #autoconhecimento #evolucao #gestaoempresarial #empreendedorismo",pendente,,0,
-ex_l1_04,2026-10-06T11:16:00,imagem,info/ex_l1_04.jpg,"No meio de tanta gente igual, o que se destaca é a constância. Aparecer todo dia, mesmo sem brilho, vale mais do que um dia perfeito seguido de semanas de silêncio.
+info_225,2026-10-06T11:16:00,imagem,info/info_225.jpg,"Às vezes o problema não é o valor da parcela, é a data. Um ajuste de poucos dias pode combinar melhor com o fluxo da empresa. Vale perguntar se existe essa possibilidade.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#constancia #marketingjuridico #conteudoparaempresarios #advocacia #empresarios",pendente,,0,
+#datadevencimento #renegociacao #fluxodecaixa #negociacaobancaria #empresarios",pendente,,0,
 tw_015,2026-10-06T11:48:00,imagem,tw/tw_015.jpg,"Errar uma vez é do jogo: uma decisão de crédito mal pensada, um contrato assinado com pressa. O problema é recusar a rever o que aconteceu só para não admitir. Anote o erro, ajuste o processo e siga em frente.
 
 Leonardo Rezende
@@ -261,12 +259,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #profundidade #estudo #foconotrabalho #gestaodepassivos #mentalidade",pendente,,0,
-ex_l1_05,2026-10-06T16:04:00,imagem,info/ex_l1_05.jpg,"Pressa não constrói carreira. O que constrói é método, estudo e paciência para fazer o básico bem feito, todos os dias. Com calma a gente chega mais longe e erra menos.
+info_319,2026-10-06T16:04:00,imagem,info/info_319.jpg,"Parcela atrasada de financiamento com garantia pede conversa rápida com o banco. O que pode acontecer depende do contrato e das etapas previstas, por isso vale conferir tudo com calma.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#carreirajuridica #metodo #advocacia #empreendedorismo #produtividade",pendente,,0,
+#alienacaofiduciaria #financiamento #gestaodepassivos #dividasempresariais #direitobancario",pendente,,0,
 tw_019,2026-10-06T16:36:00,imagem,tw/tw_019.jpg,"Pagar o imposto correto, cumprir com o funcionário, assumir o erro diante do cliente: tudo isso custa agora. Atalho barato costuma voltar como multa, processo ou perda de confiança, e aí o trabalho é dobrado.
 
 Leonardo Rezende
@@ -285,12 +283,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #preparo #estudo #negociacao #advocacia #gestaodepassivos",pendente,,0,
-info_015,2026-10-06T18:44:00,imagem,info/info_015.jpg,"É o chamado direito de arrependimento. Vale para a compra a distância, não para toda compra. Guarde o e-mail do pedido e comunique a desistência por escrito.
+info_342,2026-10-06T18:44:00,imagem,info/info_342.jpg,"Peça a cópia do contrato antes de negociar. É dele que saem juros, prazo e garantias. Sem ler o documento, qualquer proposta é decisão no escuro.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#direitodearrependimento #compraonline #cdc #direitodoconsumidor #advocacia",pendente,,0,
+#contratobancario #gestaodepassivos #dividasempresariais #direitobancario #negociacaodedividas",pendente,,0,
 tw_021,2026-10-07T07:00:00,imagem,tw/tw_021.jpg,"Perder bem não é aceitar sorrindo, é analisar sem se justificar. O que eu poderia ter feito diferente? Em que ponto errei a leitura? Quem faz essas perguntas sai da derrota com um método novo. Quem culpa os outros sai com o mesmo problema.
 
 Leonardo Rezende
@@ -319,12 +317,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #caixaapertado #gestaoempresarial #empresario #financasempresariais #gestaodepassivos",pendente,,0,
-ex_l1_06,2026-10-07T09:08:00,imagem,info/ex_l1_06.jpg,"Não adie o que dá para fazer hoje, porque o resto cobra juros. Pendência pequena vira problema grande quando fica parada. Resolva cedo e durma melhor.
+info_227,2026-10-07T09:08:00,imagem,info/info_227.jpg,"Saber quando cada parcela vence permite renegociar datas, guardar caixa antes ou espalhar o peso ao longo do ano. O problema não é só quanto se deve, é também quando se paga.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#dividasempresariais #pendencias #gestaodepassivos #empresarios #financasempresariais",pendente,,0,
+#calendariodevencimentos #renegociacao #fluxodecaixa #gestaodepassivos #dividasempresariais",pendente,,0,
 tw_023,2026-10-07T09:40:00,imagem,tw/tw_023.jpg,"Passar o dia vendo o que o concorrente faz cansa e não melhora sua entrega. Concentre-se no seu serviço, no seu cliente e no seu jeito de trabalhar. Quem faz bem feito costuma achar seu lugar, mesmo com muita gente por perto.
 
 Leonardo Rezende
@@ -343,12 +341,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #persistencia #constancia #determinacao #financaspj #dividasempresariais",pendente,,0,
-info_018,2026-10-07T11:16:00,imagem,info/info_018.jpg,"Esse prazo de 15 dias costuma passar rápido. Ao receber a intimação para cumprir a sentença, olhar a data e o cálculo no mesmo dia faz diferença. Dúvida sobre o valor deve ser apontada no tempo certo.
+info_306,2026-10-07T11:16:00,imagem,info/info_306.jpg,"Quando o seu nome é negativado, o órgão de crédito precisa avisar por carta. A Súmula 404 do STJ esclarece que não é obrigatório o aviso de recebimento, o famoso AR. O que importa é a comunicação ter sido enviada ao endereço correto. Por isso, manter o cadastro atualizado ajuda.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#cumprimentodesentenca #intimacao #prazosprocessuais #processocivil #dividasempresariais",pendente,,0,
+#direitobancario #dividasempresariais #gestaodepassivos #negativacao #cadastrodecredito",pendente,,0,
 tw_025,2026-10-07T11:48:00,imagem,tw/tw_025.jpg,"Vinte e quatro horas todo mundo tem. A diferença está no que sobra delas depois de redes sociais, reunião à toa e tarefa sem prioridade. Anote durante uma semana para onde seu tempo vai. Costuma surpreender.
 
 Leonardo Rezende
@@ -377,24 +375,24 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #persistencia #tentativas #resiliencia #gestaodepassivos #mentalidade",pendente,,0,
-ex_l1_07,2026-10-07T13:56:00,imagem,info/ex_l1_07.jpg,"Na hora de negociar, um bom acordo não é o mais barato, é o que encerra o problema. Olhe o prazo, as condições e o que fica resolvido de verdade, não só o valor da parcela.
+info_228,2026-10-07T13:56:00,imagem,info/info_228.jpg,"Conta garantida ajuda no dia em que o caixa aperta. Se o limite vira morada fixa, o custo pesa. Vale conferir o prazo de renovação do limite e quais garantias estão vinculadas.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#negociacaodedividas #acordoempresarial #dividasempresariais #financasempresariais #direitoempresarial",pendente,,0,
+#contagarantida #capitaldegiro #limitedecredito #creditoempresarial #direitobancario",pendente,,0,
 tw_027,2026-10-07T14:28:00,imagem,tw/tw_027.jpg,"Autocrítica não é se bater. É olhar o mês e constatar: perdi dois prazos, gastei sem controle, adiei uma conversa difícil. Depois escolher um ajuste e colocá-lo em prática. Simples assim, sem drama.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
 #autocritica #autoconhecimento #melhoriacontinua #dividasempresariais #gestaoempresarial",pendente,,0,
-info_020,2026-10-07T15:00:00,imagem,info/info_020.jpg,"Em compra de produto, o recebimento costuma ser o ponto que mais importa. Cada caso tem seus detalhes, então vale conferir as datas e os documentos com atenção.
+info_350,2026-10-07T15:00:00,imagem,info/info_350.jpg,"Dinheiro bem cuidado não precisa ser muito. Precisa ser conhecido. Quem enxerga para onde vai cada real decide com a cabeça mais leve.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#direitodoconsumidor #compras #notafiscal #prazos #cdc",pendente,,0,
+#educacaofinanceira #fluxodecaixa #gestaodepassivos #empresarios #financas",pendente,,0,
 tw_028,2026-10-07T15:32:00,imagem,tw/tw_028.jpg,"Vale para qualquer profissão: se preocupar em parecer bom toma o lugar de ficar bom. Na advocacia, o caso não se resolve com pose, e sim com leitura, pesquisa e preparo. Quem estuda de verdade nem precisa se esforçar tanto para aparecer.
 
 Leonardo Rezende
@@ -413,12 +411,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #planejamento #procrastinacao #acao #mentalidade #financaspj",pendente,,0,
-ex_l1_08,2026-10-07T17:40:00,imagem,info/ex_l1_08.jpg,"Quase todo mundo fala, pouca gente escuta. Quem escuta primeiro entende melhor o problema, propõe soluções mais certeiras e conquista a confiança de quem está do outro lado.
+info_229,2026-10-07T17:40:00,imagem,info/info_229.jpg,"Perder alguém já é pesado demais para ainda vir cobrança. O caminho costuma passar pelo inventário. Guarde as cartas de cobrança e confira com calma a situação da herança.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#escutaativa #relacionamentocomcliente #advocacia #empresarios #comunicacao",pendente,,0,
+#dividasdefalecido #inventario #heranca #direitoempresarial #educacaofinanceira",pendente,,0,
 tw_030,2026-10-07T18:12:00,imagem,tw/tw_030.jpg,"Resultado depende de coisas que nem sempre estão na sua mão, como mercado, cliente e economia. Esforço depende de você. Se a cobrança diária for sobre o que dá para controlar, como ligações feitas, estudo e revisão, o resultado tende a acompanhar.
 
 Leonardo Rezende
@@ -437,12 +435,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #paciencia #tempo #constancia #empresario #gestaodepassivos",pendente,,0,
-info_023,2026-10-08T07:32:00,imagem,info/info_023.jpg,"Audiência de conciliação não é julgamento. É um espaço para ouvir a proposta, tirar dúvidas e avaliar se faz sentido resolver ali. Chegar com documentos e com o limite do que se pode pagar ajuda bastante.
+info_329,2026-10-08T07:32:00,imagem,info/info_329.jpg,"Mora é o atraso, inadimplência é o descumprimento da obrigação. Parecem a mesma coisa, mas têm efeitos diferentes. Resolver o atraso cedo costuma custar bem menos.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#audienciadeconciliacao #conciliacao #acordo #processocivil #negociacaodedividas",pendente,,0,
+#direitobancario #gestaodepassivos #dividasempresariais #negociacaodedividas #juros",pendente,,0,
 tw_032,2026-10-08T08:04:00,imagem,tw/tw_032.jpg,"Todo mundo cumpre compromisso com cliente. Poucos cumprem o que prometeram a si mesmos: acordar no horário, estudar meia hora, fechar o caixa da semana. Quando você falha sempre nesses combinados, vai perdendo a confiança em si.
 
 Leonardo Rezende
@@ -495,12 +493,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #disciplina #motivacao #produtividade #dividasempresariais #gestaoempresarial",pendente,,0,
-info_026,2026-10-08T12:20:00,imagem,info/info_026.jpg,"Desconto de empréstimo que o aposentado não contratou acontece. O primeiro passo é conferir o extrato e reunir documentos. Com eles na mão, as medidas ficam mais claras.
+info_345,2026-10-08T12:20:00,imagem,info/info_345.jpg,"Recuperação judicial é uma ferramenta prevista em lei para dar fôlego a empresas viáveis em crise. Com planejamento, ajuda a preservar empregos e a atividade.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#emprestimoconsignado #aposentados #inss #descontoindevido #direitodoconsumidor",pendente,,0,
+#recuperacaojudicial #gestaodepassivos #dividasempresariais #empresarios #direitoempresarial",pendente,,0,
 rb04,2026-10-08T12:52:00,reel,reels/rb04.mp4,"Quem tem empresa conhece o ritmo: sempre tem alguma coisa pegando fogo. Fornecedor, cliente, equipe, entrega.
 
 Só que o incêndio mais silencioso não aparece na correria do dia a dia: é o passivo. Ele vai crescendo em parcelas, encargos e prazos, e só chama atenção quando o aperto já está grande. Olhar para ele de forma organizada, antes de virar urgência, costuma dar mais opções.
@@ -611,24 +609,24 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #verdade #etica #transparencia #dividasempresariais #gestaoempresarial",pendente,,0,
-info_032,2026-10-09T10:12:00,imagem,info/info_032.jpg,"Guarde nota fiscal, fotos e o registro do pedido de conserto. Com tudo organizado, a conversa com a loja fica bem mais objetiva e o prazo não passa sem que você perceba.
+info_327,2026-10-09T10:12:00,imagem,info/info_327.jpg,"A portabilidade de crédito permite levar a dívida para outro banco que ofereça condições melhores. Antes de aceitar, compare o custo efetivo total das duas propostas.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#garantia #defeitodeproduto #notafiscal #direitodoconsumidor #cdc",pendente,,0,
+#portabilidade #credito #negociacaodedividas #gestaodepassivos #direitobancario",pendente,,0,
 tw_044,2026-10-09T10:44:00,imagem,tw/tw_044.jpg,"Já tem plano suficiente na gaveta. Escolha uma ação de quinze minutos, como separar os extratos ou responder aquela mensagem pendente, e faça hoje. Amanhã, outra. É assim que plano deixa de ser só plano.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
 #habitos #acao #rotina #advocacia #empresario",pendente,,0,
-info_033,2026-10-09T11:16:00,imagem,info/info_033.jpg,"Por isso eu prefiro organizar a conversa e os documentos antes de escrever. Uma defesa pensada com calma costuma ser mais completa do que a feita na véspera do prazo.
+info_353,2026-10-09T11:16:00,imagem,info/info_353.jpg,"Acordo bom é o que se consegue cumprir. Fechar algo que não cabe no caixa só adia o problema. Prefiro propor menos e honrar cada parcela.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#defesajudicial #organizacaodedocumentos #prazosprocessuais #processocivil #advocacia",pendente,,0,
+#negociacaodedividas #acordo #gestaodepassivos #dividasempresariais #fluxodecaixa",pendente,,0,
 tw_045,2026-10-09T11:48:00,imagem,tw/tw_045.jpg,"Quase ninguém se sente pronto para abrir o negócio, assumir o cargo ou encarar a conversa com o credor. Você aprende fazendo e ajustando no caminho. Se esperar segurança total, ela só vem depois que você começar.
 
 Leonardo Rezende
@@ -717,12 +715,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #disciplina #organizacao #planejamento #dividasempresariais #gestaoempresarial",pendente,,0,
-info_038,2026-10-10T07:32:00,imagem,info/info_038.jpg,"Muita gente deixa de reclamar achando que perdeu o papel da garantia. A lei já protege o consumidor contra defeito mesmo sem esse documento. A nota fiscal ajuda a provar a compra.
+info_314,2026-10-10T07:32:00,imagem,info/info_314.jpg,"Aval assinado sem aviso é mais comum do que parece. A resposta depende do que está escrito no contrato e de quem assinou, por isso a leitura do documento vem sempre primeiro.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#garantialegal #cdc #direitodoconsumidor #defeito #notafiscal",pendente,,0,
+#aval #fianca #garantias #gestaodepassivos #dividasempresariais",pendente,,0,
 tw_052,2026-10-10T08:04:00,imagem,tw/tw_052.jpg,"Cada notificação que você atende é uma decisão sobre onde colocar a atenção, e quase sempre não foi você quem decidiu. Defina horários para olhar mensagens e proteja blocos de trabalho sem interrupção.
 
 Leonardo Rezende
@@ -821,12 +819,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #fracasso #recomecar #aprendizado #dividasempresariais #empreendedorismo",pendente,,0,
-info_043,2026-10-10T16:04:00,imagem,info/info_043.jpg,"Diferente da urgência, aqui o ponto é a força das provas. Essa tutela não decide o processo, só antecipa um efeito enquanto ele continua. Pode ser revista, e há recurso previsto.
+info_337,2026-10-10T16:04:00,imagem,info/info_337.jpg,"Trinta dias de atraso já somam juros, multa e correção. Quanto antes a parcela é paga ou renegociada, menor fica a conta final.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#tutelaprovisoria #tutelaantecipada #processocivil #advocacia #empresarios",pendente,,0,
+#juros #multacontratual #gestaodepassivos #dividasempresariais #negociacaodedividas",pendente,,0,
 tw_059,2026-10-10T16:36:00,imagem,tw/tw_059.jpg,"A dúvida aparece quando o esforço já está alto e o resultado ainda não veio. É normal e não quer dizer que o caminho está errado. Em vez de abandonar, reveja o plano com calma e veja se precisa de ajuste ou só de mais tempo.
 
 Leonardo Rezende
@@ -915,12 +913,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #celular #distracoes #foco #empreendedorismo #advocacia",pendente,,0,
-info_048,2026-10-11T12:20:00,imagem,info/info_048.jpg,"Antes de entrar com uma ação ou de se defender, vale saber que existe esse custo e consultar a tabela do tribunal. Há também a opção de gratuidade, para quem não tem como pagar. Informação evita susto no boleto.
+info_303,2026-10-11T12:20:00,imagem,info/info_303.jpg,"Comissão de permanência não vem junto com tudo. A Súmula 472 do STJ explica que, quando ela é cobrada, ficam de fora os juros remuneratórios, os juros de mora e a multa contratual. Se a planilha do banco soma tudo, vale conferir item por item.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#custasjudiciais #gratuidadedajustica #processocivil #acessoajustica #advocacia",pendente,,0,
+#direitobancario #gestaodepassivos #dividasempresariais #juros #contratobancario",pendente,,0,
 rb07,2026-10-11T12:52:00,reel,reels/rb07.mp4,"Tem mês em que o empresário trabalha, vende, entrega e, no fim, quase tudo vai para parcela. A empresa funciona, mas o dinheiro já tem destino antes mesmo de entrar.
 
 Quando isso vira rotina, o negócio deixa de crescer e passa só a se manter. Lucro é o que sobra para investir, reservar e viver. Se a sobra não aparece, vale analisar a composição das dívidas e o que pode ser reorganizado de forma sustentável.
@@ -973,12 +971,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #prioridades #gestaodotempo #decisao #mentalidade #financaspj",pendente,,0,
-info_051,2026-10-11T17:40:00,imagem,info/info_051.jpg,"Pensar na saída antes de entrar evita susto depois. Pergunte quanto custa cancelar no primeiro, no sexto e no último mês, e peça para ver isso escrito no contrato ou na proposta.
+info_356,2026-10-11T17:40:00,imagem,info/info_356.jpg,"Procurar o banco antes do atraso abre mais portas do que esperar o vencimento passar. Com uma proposta na mão, a conversa começa em outro nível.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#multarescisoria #cancelamentodecontrato #contratos #direitodoconsumidor #empresarios",pendente,,0,
+#negociacaodedividas #direitobancario #gestaodepassivos #dividasempresariais #credito",pendente,,0,
 tw_070,2026-10-11T18:12:00,imagem,tw/tw_070.jpg,"Vale para qualquer texto importante, de um contrato a um e-mail para o banco. Leia o material inteiro, escreva, deixe descansar e revise. A diferença entre um documento comum e um bom está quase sempre nos detalhes.
 
 Leonardo Rezende
@@ -997,12 +995,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #processo #evolucao #paciencia #empresario #gestaodepassivos",pendente,,0,
-info_053,2026-10-12T07:32:00,imagem,info/info_053.jpg,"O mais difícil de um conflito costuma ser a conversa que ninguém consegue ter. Na mediação, essa conversa ganha um espaço organizado, e ninguém é obrigado a aceitar o que não quer.
+info_307,2026-10-12T07:32:00,imagem,info/info_307.jpg,"Quem foi fiador sem prazo definido pode pedir para sair. O Código Civil, no art. 835, permite a exoneração por notificação ao credor, e a responsabilidade continua por 60 dias depois dela. Em contratos de aluguel, a regra é específica e o prazo pode ser outro, então vale olhar o caso.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#mediacao #resolucaodeconflitos #acordo #meiosconsensuais #advocacia",pendente,,0,
+#direitobancario #dividasempresariais #gestaodepassivos #fianca #garantias",pendente,,0,
 tw_072,2026-10-12T08:04:00,imagem,tw/tw_072.jpg,"Na fase difícil, o motivo original segura a gente. Na fácil, o risco é relaxar e se perder de novo. Por isso vale manter a rotina e a revisão dos números, não importa como o mês esteja.
 
 Leonardo Rezende
@@ -1019,12 +1017,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #projecaodecaixa #fluxodecaixa #planejamentofinanceiro #gestaodepassivos #empresario",pendente,,0,
-ex_l2_04,2026-10-12T09:08:00,imagem,info/ex_l2_04.jpg,"Antes de recorrer, eu faço três perguntas simples: qual a chance real, quanto custa e quanto tempo leva, e se existe um caminho melhor. Nem sempre a resposta é recorrer.
+info_311,2026-10-12T09:08:00,imagem,info/info_311.jpg,"Essa pergunta aparece toda semana. Proposta boa aguenta uma noite de análise. Antes de aceitar, peça tudo por escrito, confira o total a pagar e só então decida.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#recurso #estrategiaprocessual #processocivil #gestaodepassivos #direitobancario",pendente,,0,
+#negociacaodedividas #gestaodepassivos #dividasempresariais #direitobancario #renegociacao",pendente,,0,
 tw_073,2026-10-12T09:40:00,imagem,tw/tw_073.jpg,"Em negócio e em carreira a gente se compara demais com os outros. Mas a vitória mais importante costuma ser silenciosa: fazer a ligação naquele dia em que dava vontade de deixar para lá, encarar a tarefa difícil, olhar de frente para o problema.
 
 Leonardo Rezende
@@ -1229,12 +1227,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #discricao #execucao #foco #empresario #gestaodepassivos",pendente,,0,
-ex_l2_08,2026-10-13T15:00:00,imagem,info/ex_l2_08.jpg,"Recorrer é decisão de chance, custo e tempo, não de hábito. Eu prefiro conversar com o time antes de decidir.
+info_354,2026-10-13T15:00:00,imagem,info/info_354.jpg,"Decisão tomada com pressa costuma custar mais caro. Respirar, levantar os números e agir em ordem poupa dinheiro e preserva a cabeça no meio da crise.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#recursos #estrategiaprocessual #processocivil #advocacia #gestaodepassivos",pendente,,0,
+#mentalidade #gestaodepassivos #dividasempresariais #empresarios #crise",pendente,,0,
 tw_088,2026-10-13T15:32:00,imagem,tw/tw_088.jpg,"Quem não controla a agenda vive respondendo à urgência dos outros. Quem planeja o tempo consegue encaixar o que é importante antes que o dia acabe. Começar dominando uma hora por dia já faz diferença.
 
 Leonardo Rezende
@@ -1299,12 +1297,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #sinaisdealerta #passivoempresarial #gestaodepassivos #empresario #endividamento",pendente,,0,
-info_068,2026-10-14T09:08:00,imagem,info/info_068.jpg,"Perícia não é obrigatória em todo processo, e o juiz avalia se é necessária. Quando existe dúvida técnica sobre valores, ela pode esclarecer a discussão. Tem custo e prazo, e isso entra na decisão.
+info_331,2026-10-14T09:08:00,imagem,info/info_331.jpg,"Com juros compostos de 3% ao mês, uma dívida de R$ 10 mil passa de R$ 14 mil em doze meses. Por isso, pedir a simulação do total a pagar é um hábito que protege o caixa.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#pericia #periciacontabil #processocivil #acaorevisional #advocacia",pendente,,0,
+#juros #gestaodepassivos #dividasempresariais #financasempresariais #credito",pendente,,0,
 tw_093,2026-10-14T09:40:00,imagem,tw/tw_093.jpg,"Lei, mercado, tecnologia e ferramentas mudam o tempo todo. Reserve um pedaço da rotina para ler, atualizar e testar coisas novas, mesmo que sejam vinte minutos por dia. Esse hábito mantém o seu trabalho em dia.
 
 Leonardo Rezende
@@ -1323,12 +1321,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #dominio #aprendizado #paciencia #gestaoempresarial #empreendedorismo",pendente,,0,
-info_070,2026-10-14T11:16:00,imagem,info/info_070.jpg,"Cuidar de dados não precisa de tecnologia cara. Começa em gestos pequenos: bloquear a tela, guardar o papel, não deixar documento esquecido. É respeito com quem confiou a informação.
+info_321,2026-10-14T11:16:00,imagem,info/info_321.jpg,"Pergunta frequente nos contratos de crédito. A comissão de permanência não costuma ser cobrada junto com juros e multa. Por isso, a conferência da planilha de cálculo faz toda a diferença.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#lgpd #protecaodedados #sigilo #negociacaodedividas #empreendedorismo",pendente,,0,
+#direitobancario #gestaodepassivos #dividasempresariais #comissaodepermanencia #juros",pendente,,0,
 tw_095,2026-10-14T11:48:00,imagem,tw/tw_095.jpg,"Fôlego é importante, mas sem organização ele acaba. Controle de prazos, rotina de revisão e divisão de tarefas fazem a corrida render. Serve para o advogado e para qualquer profissional com muita demanda e pouco tempo.
 
 Leonardo Rezende
@@ -1393,12 +1391,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #concentracao #habitos #distracoes #dividasempresariais #gestaoempresarial",pendente,,0,
-ex_l2_11,2026-10-14T17:40:00,imagem,info/ex_l2_11.jpg,"Antes de uma audiência, eu releio o contrato e o histórico, alinho o que pode ser proposto e chego com calma. A tranquilidade aparece.
+info_332,2026-10-14T17:40:00,imagem,info/info_332.jpg,"Tarifas e seguros embutidos no contrato aumentam o total e ainda rendem juros. Peça o detalhamento de cada item antes de assinar.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#audiencia #preparacao #processocivil #advocacia #negociacao",pendente,,0,
+#contratobancario #credito #gestaodepassivos #dividasempresariais #direitobancario",pendente,,0,
 tw_100,2026-10-14T18:12:00,imagem,tw/tw_100.jpg,"Ser o mais experiente do grupo pode ser confortável e te manter parado. Estar perto de gente que sabe mais exige humildade, mas acelera o aprendizado. Busque ambientes que te desafiem, mesmo que você não seja o destaque.
 
 Leonardo Rezende
@@ -1451,36 +1449,36 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #autorresponsabilidade #crescimentoprofissional #mentalidade #dividasempresariais #advocacia",pendente,,0,
-ex_l2_12,2026-10-15T10:12:00,imagem,info/ex_l2_12.jpg,"Desde o CPC de 2015, prazo contado em dias considera só os dias úteis. Mesmo assim, conferir a intimação e o calendário continua sendo a regra de ouro. Já perdi o sono por menos.
+info_318,2026-10-15T10:12:00,imagem,info/info_318.jpg,"Garantia extra para renovar limite merece pergunta antes de assinatura: o que ela cobre, por quanto tempo e como é baixada depois. Muitas vezes dá para negociar as condições.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#prazosprocessuais #cpc2015 #processocivil #advocacia #diasuteis",pendente,,0,
+#garantias #direitobancario #gestaodepassivos #dividasempresariais #credito",pendente,,0,
 tw_104,2026-10-15T10:44:00,imagem,tw/tw_104.jpg,"Dia pesado costuma ser decidido nos primeiros vinte minutos. Se você começa arrumando algo pequeno e já resolve uma tarefa, o corpo entra no modo trabalho. Não precisa de motivação, só de um primeiro passo simples.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
 #preguica #produtividade #rotina #advocacia #mentalidade",pendente,,0,
-info_077,2026-10-15T11:16:00,imagem,info/info_077.jpg,"Cuidado digital é hábito, não paranoia. Poucas regras, repetidas sempre, já protegem bastante: atualizar os aparelhos, não repetir senha e desconfiar do que chega com pressa.
+info_359,2026-10-15T11:16:00,imagem,info/info_359.jpg,"Olhar só o saldo de hoje engana. Quem projeta os próximos 90 dias enxerga o aperto antes e decide com mais calma.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#segurancadigital #protecaodedados #golpesdigitais #empresarios #advocacia",pendente,,0,
+#fluxodecaixa #gestaodepassivos #dividasempresariais #empresarios #financasempresariais",pendente,,0,
 tw_105,2026-10-15T11:48:00,imagem,tw/tw_105.jpg,"Aquele profissional que parece ter estourado do nada geralmente passou anos estudando e errando sem ninguém ver. Quando o resultado aparece, o público só enxerga a parte final. Se você está na fase invisível, ela faz parte do processo.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
 #preparacao #bastidores #constancia #mentalidade #gestaoempresarial",pendente,,0,
-info_078,2026-10-15T12:20:00,imagem,info/info_078.jpg,"Existem exceções, mas a regra ajuda a entender o que cada lado precisa levar ao processo. Quem organiza os documentos cedo costuma chegar mais seguro.
+info_330,2026-10-15T12:20:00,imagem,info/info_330.jpg,"Covenant é uma condição colocada pelo banco no contrato, como manter um nível de caixa ou não contratar outras dívidas. Descumprir pode trazer consequências, por isso a leitura antes de assinar é essencial.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#onusdaprova #provas #processocivil #organizacaodedocumentos #advocacia",pendente,,0,
+#credito #contratobancario #gestaodepassivos #dividasempresariais #empresarios",pendente,,0,
 rb11,2026-10-15T12:52:00,reel,reels/rb11.mp4,"Vender, produzir, liderar: isso você faz bem, e foi isso que levou sua empresa até aqui. Agora, administrar contratos bancários, prazos e encargos é outra especialidade, com outro vocabulário e outras regras.
 
 Não é demérito nenhum não dominar esse assunto. Cada um no seu papel: o empresário foca no negócio, e o passivo fica com quem acompanha isso todos os dias. Isso libera atenção para o que dá resultado.
@@ -1625,12 +1623,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #prazos #atencao #advocacia #empresario #financaspj",pendente,,0,
-info_085,2026-10-16T12:20:00,imagem,info/info_085.jpg,"Antes de assinar, peça a cópia completa e leia sem pressa. Se algo não ficou claro, pergunte. Entender o contrato é um direito de quem consome, não um favor de quem vende.
+info_310,2026-10-16T12:20:00,imagem,info/info_310.jpg,"Quem pede recuperação judicial tem 60 dias, depois da decisão que aceita o pedido, para apresentar o plano. O prazo está no art. 53 da Lei 11.101 e não costuma ser prorrogado. É por isso que o planejamento começa antes do pedido, com número na mão.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#leituradecontrato #direitodoconsumidor #contratobancario #direitoempresarial #educacaofinanceira",pendente,,0,
+#recuperacaojudicial #gestaodepassivos #dividasempresariais #direitoempresarial #empresarios",pendente,,0,
 rb12,2026-10-16T12:52:00,reel,reels/rb12.mp4,"Imagine a cena: de um lado da mesa, o empresário, com agenda lotada e uma empresa para tocar. Do outro, um banco com equipe jurídica, contratos padronizados e todo o tempo para negociar.
 
 Não é uma conversa entre iguais, e muita gente só percebe isso tarde. Ter alguém que entenda o jogo, analise o contrato e conduza o diálogo pode equilibrar um pouco essa balança. Cada caso é um caso, e vale analisar com cuidado.
@@ -1671,24 +1669,24 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #revisao #atencaoaosdetalhes #advocacia #gestaodepassivos #dividasempresariais",pendente,,0,
-ex_l2_16,2026-10-16T16:04:00,imagem,info/ex_l2_16.jpg,"O próprio CPC manda estimular a conciliação e a mediação, inclusive durante o processo. Conversar também é estratégia, e muita gente esquece disso.
+info_341,2026-10-16T16:04:00,imagem,info/info_341.jpg,"Quem chega à negociação com contratos, saldos e vencimentos organizados conversa de igual para igual. Desorganização costuma ser o que mais encarece uma dívida.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#conciliacao #mediacao #cpc #negociacaodedividas #empreendedorismo",pendente,,0,
+#negociacaodedividas #gestaodepassivos #dividasempresariais #direitobancario #organizacao",pendente,,0,
 tw_119,2026-10-16T16:36:00,imagem,tw/tw_119.jpg,"Quando você conhece o processo de ponta a ponta, não precisa fingir firmeza. Ela vem sozinha. Se bateu aquele frio na barriga antes de uma audiência, olhe para o que ainda não foi estudado e comece por aí.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
 #preparo #seguranca #advocacia #dividasempresariais #mentalidade",pendente,,0,
-info_088,2026-10-16T17:40:00,imagem,info/info_088.jpg,"Clonagem de WhatsApp é um golpe comum e quase sempre começa com um código enviado por mensagem. Ativar a verificação em duas etapas e nunca repassar códigos já fecha boa parte desse caminho.
+info_355,2026-10-16T17:40:00,imagem,info/info_355.jpg,"A diferença entre aceitar a primeira oferta e propor com base nos números é grande. Reunir contratos, saldos e fluxo de caixa antes da conversa muda o resultado.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#clonagemdewhatsapp #golpedigital #verificacaoemduasetapas #negociacaodedividas #empreendedorismo",pendente,,0,
+#negociacaodedividas #renegociacao #gestaodepassivos #dividasempresariais #direitobancario",pendente,,0,
 tw_120,2026-10-16T18:12:00,imagem,tw/tw_120.jpg,"Ninguém lembra do dia em que pagou a conta em dia, respondeu o cliente ou fechou a planilha. Mas é essa soma de dias normais, feitos com cuidado, que dá sustentação a uma empresa. O resultado grande costuma ser a parte visível de muita rotina bem feita.
 
 Leonardo Rezende
@@ -1707,12 +1705,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #metas #planejamento #persistencia #mentalidade #gestaoempresarial",pendente,,0,
-info_090,2026-10-17T07:32:00,imagem,info/info_090.jpg,"Andamento processual é escrito em linguagem de tribunal, e isso afasta muita gente. Pedir tradução não é incômodo, é direito de quem tem o processo. Saber em que fase está já tira boa parte da ansiedade.
+info_351,2026-10-17T07:32:00,imagem,info/info_351.jpg,"Todo cliente merece a verdade, mesmo a difícil. Prometer o que não dá para entregar custa a confiança. Explicar os riscos desde o início custa só uma conversa franca.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#andamentoprocessual #linguagemjuridica #acompanhamentodeprocesso #processocivil #advocacia",pendente,,0,
+#confianca #advocacia #transparencia #gestaodepassivos #empresarios",pendente,,0,
 tw_122,2026-10-17T08:04:00,imagem,tw/tw_122.jpg,"Quem rende de verdade geralmente tem dias bem parecidos: mesmos horários, mesmas prioridades, poucas distrações. Não tem nada de glamoroso nisso, e ainda bem. A graça está no que se acumula depois de meses.
 
 Leonardo Rezende
@@ -1765,12 +1763,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #decisoes #descanso #equilibrio #empreendedorismo #gestaodepassivos",pendente,,0,
-info_093,2026-10-17T12:20:00,imagem,info/info_093.jpg,"Existe uma lógica aqui: o autor não deve ser prejudicado por uma demora que não causou. Quem foi processado deve olhar a data do protocolo, e não só a data em que recebeu a citação.
+info_325,2026-10-17T12:20:00,imagem,info/info_325.jpg,"O banco olha faturamento, fluxo de caixa, histórico de pagamento, endividamento e garantias. Quem chega com os números organizados tem mais poder de negociação.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#prescricao #citacao #dataprotocolo #processocivil #dividasempresariais",pendente,,0,
+#credito #fluxodecaixa #gestaodepassivos #dividasempresariais #empresarios",pendente,,0,
 rb13,2026-10-17T12:52:00,reel,reels/rb13.mp4,"O telefone toca e é o banco. O boleto vence amanhã. O fornecedor quer saber quando vai receber. E, no meio disso tudo, você ainda precisa atender o cliente com um sorriso no rosto.
 
 Essa pressão em várias frentes desgasta e atrapalha até a qualidade do atendimento. Centralizar a gestão do passivo, com alguém cuidando das conversas e dos prazos, ajuda a tirar parte desse peso das suas costas.
@@ -1939,12 +1937,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #escrita #leitura #advocacia #mentalidade #gestaoempresarial",pendente,,0,
-ex_l2_21,2026-10-18T15:00:00,imagem,info/ex_l2_21.jpg,"A duração razoável do processo é uma garantia da Constituição. Quem espera, espera de verdade. O tempo do processo também é o tempo de gente.
+info_320,2026-10-18T15:00:00,imagem,info/info_320.jpg,"Acordo combinado só por telefone é difícil de provar depois. Peça tudo por escrito e anote valor, prazo, parcelas, data, nome de quem atendeu e o número do protocolo.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#duracaorazoavel #acessoajustica #processocivil #direitosfundamentais #advocacia",pendente,,0,
+#negociacaodedividas #gestaodepassivos #dividasempresariais #direitobancario #acordo",pendente,,0,
 tw_138,2026-10-18T15:32:00,imagem,tw/tw_138.jpg,"Sem apoio, não adianta gastar energia tentando provar algo. Com aplauso, o risco é relaxar e achar que já deu certo. Nos dois cenários, o que sustenta o resultado é continuar fazendo a parte que cabe a você.
 
 Leonardo Rezende
@@ -1963,12 +1961,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #diaadia #constancia #planejamento #empresario #financaspj",pendente,,0,
-info_103,2026-10-18T17:40:00,imagem,info/info_103.jpg,"A lei presume válidas as intimações enviadas ao endereço que consta dos autos, mesmo que a pessoa tenha mudado sem avisar. Mudou de casa ou de e-mail? Avise o processo e o advogado.
+info_338,2026-10-18T17:40:00,imagem,info/info_338.jpg,"Separar 10% de tudo que entra forma uma reserva em poucos meses. É ela que evita recorrer ao crédito caro na hora do aperto.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#intimacao #mudancadeendereco #processocivil #direitoempresarial #educacaofinanceira",pendente,,0,
+#fluxodecaixa #reservadecaixa #gestaodepassivos #empresarios #financasempresariais",pendente,,0,
 tw_140,2026-10-18T18:12:00,imagem,tw/tw_140.jpg,"De nada adianta montar uma agenda impecável que você abandona na terça. Prefira algo pequeno que dê para manter: quinze minutos de planilha, uma hora de estudo. O que se repete é o que vira resultado.
 
 Leonardo Rezende
@@ -2067,12 +2065,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #foco #evolucao #produtividade #gestaoempresarial #empresario",pendente,,0,
-info_108,2026-10-19T13:56:00,imagem,info/info_108.jpg,"Por isso o primeiro texto e o primeiro conjunto de documentos pesam tanto. Nem todo processo tem audiência de instrução, e a decisão pode sair direto da leitura do que foi juntado.
+info_301,2026-10-19T13:56:00,imagem,info/info_301.jpg,"Atrasou? Os juros do contrato continuam valendo, mas só até o limite da taxa que foi contratada. A Súmula 296 do STJ fala em taxa média de mercado do Banco Central, limitada ao percentual do contrato. Conferir isso no cálculo da dívida evita pagar a mais.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#audienciadeinstrucao #provadocumental #peticaoinicial #processocivil #advocacia",pendente,,0,
+#direitobancario #dividasempresariais #gestaodepassivos #juros #contratobancario",pendente,,0,
 tw_147,2026-10-19T14:28:00,imagem,tw/tw_147.jpg,"Quase toda conquista começa com um desconforto bobo: levantar quando dá vontade de ficar. Não é sobre acordar às cinco, e sim sobre cumprir o que você decidiu para o seu dia. A primeira vitória é sair de baixo do cobertor.
 
 Leonardo Rezende
@@ -2185,12 +2183,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #carater #disciplina #responsabilidade #empresario #financaspj",pendente,,0,
-info_115,2026-10-20T12:20:00,imagem,info/info_115.jpg,"Falso advogado usa dados reais de processo para parecer verdadeiro. Antes de qualquer pagamento, confirme tudo por conta própria, por canais que você mesmo encontrou, e não pelos que ele passou.
+info_361,2026-10-20T12:20:00,imagem,info/info_361.jpg,"Uma pasta única com contratos, comprovantes e protocolos economiza horas e ajuda muito na negociação. Organização também é estratégia.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#falsoadvogado #golpejudicial #fraudedigital #advocacia #empresarios",pendente,,0,
+#organizacao #gestaodepassivos #dividasempresariais #negociacaodedividas #empresarios",pendente,,0,
 rb16,2026-10-20T12:52:00,reel,reels/rb16.mp4,"Existe o empresário que sabe exatamente o que deve, quando vence e quanto pesa no caixa. E existe o que prefere não olhar. Adivinha qual dorme mais tranquilo.
 
 Gerir o passivo com método não significa ter zero dívida, e sim ter controle. Quando a conversa é adiada, a cobrança costuma chegar no pior momento, geralmente com menos opções na mesa. Antecipar é quase sempre mais confortável.
@@ -2219,12 +2217,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #gestao #indicadores #evolucao #empreendedorismo #gestaodepassivos",pendente,,0,
-ex_l2_26,2026-10-20T15:00:00,imagem,info/ex_l2_26.jpg,"O juiz pode inverter o ônus da prova a favor do consumidor quando há verossimilhança ou hipossuficiência (CDC, art. 6º, VIII). Quem registra bem, prova melhor.
+info_335,2026-10-20T15:00:00,imagem,info/info_335.jpg,"Taxa baixa no papel pode custar caro quando a correção e as tarifas entram na conta. Compare pelo custo total, não só pela taxa anunciada.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#inversaodoonusdaprova #cdc #direitodoconsumidor #provas #advocacia",pendente,,0,
+#juros #credito #gestaodepassivos #dividasempresariais #financasempresariais",pendente,,0,
 tw_158,2026-10-20T15:32:00,imagem,tw/tw_158.jpg,"Que tal olhar a agenda da última semana e comparar com o que você diz querer? Se o objetivo é organizar a empresa e as horas foram para outras coisas, o problema é de alinhamento. Ajuste o calendário primeiro, o resto vem depois.
 
 Leonardo Rezende
@@ -2441,12 +2439,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #foco #multitarefa #produtividade #empreendedorismo #gestaodepassivos",pendente,,0,
-info_128,2026-10-22T10:12:00,imagem,info/info_128.jpg,"As provas precisam ser bem trabalhadas desde o início do processo. Lá na frente, nos tribunais superiores, o espaço para rediscutir fatos é muito menor.
+info_308,2026-10-22T10:12:00,imagem,info/info_308.jpg,"Multa de contrato não precisa ser engolida inteira quando é exagerada. O art. 413 do Código Civil permite ao juiz reduzir a cláusula penal de forma justa quando ela é manifestamente excessiva ou quando parte da obrigação já foi cumprida. Cada caso é analisado no detalhe.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#provas #recursos #tribunaissuperiores #processocivil #estrategiaprocessual",pendente,,0,
+#direitobancario #dividasempresariais #gestaodepassivos #multacontratual #negociacaodedividas",pendente,,0,
 tw_174,2026-10-22T10:44:00,imagem,tw/tw_174.jpg,"Calma não significa lentidão. Significa fazer cada etapa com atenção, sem pular nenhuma, e manter o ritmo sem longas paradas. Quem tem pressa acaba refazendo, e quem trabalha com cabeça fria costuma chegar antes.
 
 Leonardo Rezende
@@ -2487,24 +2485,24 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #rotina #vantagem #consistencia #advocacia #mentalidade",pendente,,0,
-ex_l3_01,2026-10-22T13:56:00,imagem,info/ex_l3_01.jpg,"Dado de cliente é confiança emprestada. A LGPD, no art. 6º, pede finalidade clara e uso limitado ao necessário. Na rotina, isso é pedir, guardar e compartilhar só o que faz sentido.
+info_316,2026-10-22T13:56:00,imagem,info/info_316.jpg,"Vender um bem para quitar dívida pode ser uma boa saída, mas precisa de conta feita antes. Saldo atualizado, juros e o que sobra no caixa mostram se vale a pena.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#lgpd #protecaodedados #privacidade #direitoempresarial #educacaofinanceira",pendente,,0,
+#gestaodepassivos #dividasempresariais #fluxodecaixa #empresarios #negociacaodedividas",pendente,,0,
 tw_177,2026-10-22T14:28:00,imagem,tw/tw_177.jpg,"Tem discussão que não vai a lugar nenhum porque a outra pessoa nunca quis ouvir de verdade. Nesses casos, explique uma vez, com calma, e siga. Seu tempo rende mais com quem está disposto a conversar.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
 #tempo #limites #maturidade #mentalidade #gestaoempresarial",pendente,,0,
-info_131,2026-10-22T15:00:00,imagem,info/info_131.jpg,"Audiência online tem a mesma seriedade da presencial, e o cuidado com a estrutura faz parte. Um lugar silencioso, entrar alguns minutos antes e ter o link e o documento separados ajudam a falar com tranquilidade.
+info_346,2026-10-22T15:00:00,imagem,info/info_346.jpg,"Quitar tudo de uma vez e ficar sem caixa costuma gerar uma nova dívida. Equilíbrio entre pagar e manter a operação rodando é o que protege o negócio.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#audienciaonline #audiencia #processocivil #preparacao #advocacia",pendente,,0,
+#fluxodecaixa #gestaodepassivos #dividasempresariais #empresarios #financasempresariais",pendente,,0,
 tw_178,2026-10-22T15:32:00,imagem,tw/tw_178.jpg,"O esforço em dia animado qualquer um faz. O que separa quem evolui é o que acontece quando o corpo pede para parar. Nesses dias, mesmo uma versão menor do compromisso já mantém o hábito vivo.
 
 Leonardo Rezende
@@ -2535,12 +2533,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #inteligenciaemocional #calma #autocontrole #financaspj #empreendedorismo",pendente,,0,
-ex_l3_02,2026-10-22T18:44:00,imagem,info/ex_l3_02.jpg,"Petição boa é a que o juiz lê até o fim. Escrever curto dá mais trabalho, e eu ainda estou treinando isso.
+info_328,2026-10-22T18:44:00,imagem,info/info_328.jpg,"Quitada a dívida, o aval deixa de ter efeito. O cuidado é guardar o comprovante e pedir a baixa de qualquer garantia ligada ao contrato, para não ficar pendência escondida.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#peticao #escritajuridica #advocacia #processocivil #comunicacao",pendente,,0,
+#aval #garantias #gestaodepassivos #dividasempresariais #direitobancario",pendente,,0,
 tw_181,2026-10-23T07:00:00,imagem,tw/tw_181.jpg,"Uma empresa mais organizada, um profissional mais seguro, uma pessoa mais paciente: tudo isso se forma aos poucos, por pequenos ajustes que passam despercebidos. Se não percebe a mudança hoje, compare com seis meses atrás.
 
 Leonardo Rezende
@@ -2593,12 +2591,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #persistencia #ritmo #continuidade #advocacia #mentalidade",pendente,,0,
-ex_l3_03,2026-10-23T11:16:00,imagem,info/ex_l3_03.jpg,"Nas causas de até 20 salários mínimos, o Juizado Especial Cível dispensa advogado. De 20 a 40, ele é obrigatório. O teto é de 40 salários mínimos (Lei 9.099/95). Muita gente tem ali o primeiro contato com a Justiça.
+info_305,2026-10-23T11:16:00,imagem,info/info_305.jpg,"Contrato de abertura de crédito na conta, mesmo com extrato anexado, não vale como título executivo. É o que diz a Súmula 233 do STJ. Na prática, o banco precisa seguir outro caminho para cobrar, e isso muda bastante a estratégia de defesa.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#juizadoespecial #lei9099 #acessoajustica #processocivil #direitodoconsumidor",pendente,,0,
+#direitobancario #gestaodepassivos #dividasempresariais #contratobancario #credito",pendente,,0,
 tw_185,2026-10-23T11:48:00,imagem,tw/tw_185.jpg,"Muita empresa boa começou numa mesa emprestada, com um cliente e uma ideia. Esperar a estrutura perfeita costuma ser um jeito elegante de adiar. Comece pequeno, aprenda com a prática e vá aumentando.
 
 Leonardo Rezende
@@ -2627,12 +2625,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #procrastinacao #acao #futuro #gestaoempresarial #empresario",pendente,,0,
-info_138,2026-10-23T13:56:00,imagem,info/info_138.jpg,"A visita do oficial de justiça costuma gerar susto, mas ele cumpre uma ordem do juiz e registra tudo por escrito. Receber com calma, ler o que for entregue e anotar a data ajuda a acompanhar os prazos.
+info_317,2026-10-23T13:56:00,imagem,info/info_317.jpg,"Crédito negado não é sentença. É uma análise de risco que olha renda, histórico e endividamento. Organizar as dívidas e manter os pagamentos em dia melhora as chances na próxima tentativa.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#oficialdejustica #mandadojudicial #prazosprocessuais #processocivil #dividasempresariais",pendente,,0,
+#credito #gestaodepassivos #dividasempresariais #direitobancario #financasempresariais",pendente,,0,
 tw_187,2026-10-23T14:28:00,imagem,tw/tw_187.jpg,"Esperar o primeiro dia do mês ou a próxima segunda para começar é um jeito de ganhar tempo para não agir. Se é importante, a melhor data é a mais próxima. Nem que seja um passo pequeno, comece ainda hoje.
 
 Leonardo Rezende
@@ -2721,12 +2719,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #atencao #habilidade #pratica #mentalidade #gestaoempresarial",pendente,,0,
-info_143,2026-10-24T10:12:00,imagem,info/info_143.jpg,"Reunir contratos, extratos e comprovantes antes do prazo da defesa é muito importante. Deixar para a última hora aumenta o risco de ficar de fora justamente o documento que mais ajudaria.
+info_352,2026-10-24T10:12:00,imagem,info/info_352.jpg,"Quem cumpre o que promete dispensa propaganda. Palavra cumprida vira indicação, e indicação é a forma mais antiga e mais forte de construir nome.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#defesa #prazodedefesa #documentos #processocivil #advocacia",pendente,,0,
+#reputacao #confianca #advocacia #trabalho #empresarios",pendente,,0,
 tw_194,2026-10-24T10:44:00,imagem,tw/tw_194.jpg,"Empresa que cresce rápido demais, sem controle de caixa e sem processo, tende a se endividar de forma perigosa. Crescer no ritmo que a estrutura aguenta dá mais segurança e menos susto lá na frente.
 
 Leonardo Rezende
@@ -2779,12 +2777,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #educacao #respeito #relacionamento #empreendedorismo #gestaodepassivos",pendente,,0,
-info_146,2026-10-24T15:00:00,imagem,info/info_146.jpg,"Se receber o que não pediu, guarde a prova do envio e avise a empresa por escrito. Vale conferir se não foi você mesmo que aceitou algo em algum cadastro.
+info_362,2026-10-24T15:00:00,imagem,info/info_362.jpg,"Combinar tudo só de boca costuma dar problema quando a situação aperta. Registrar por escrito quem responde por qual dívida protege a sociedade.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#direitodoconsumidor #cobrancaindevida #produtonaosolicitado #cdc #provas",pendente,,0,
+#socios #gestaodepassivos #dividasempresariais #direitoempresarial #empresarios",pendente,,0,
 tw_198,2026-10-24T15:32:00,imagem,tw/tw_198.jpg,"Preparo de última hora deixa lacunas que o outro lado percebe. Chamar o resultado de azar é fugir da conversa sobre o que poderia ter sido feito antes. Antecipar o estudo é a melhor forma de diminuir surpresas.
 
 Leonardo Rezende
@@ -2917,12 +2915,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #autocontrole #inteligenciaemocional #audiencia #advocacia #mentalidade",pendente,,0,
-info_153,2026-10-25T13:56:00,imagem,info/info_153.jpg,"Acontece de a penhora alcançar um bem que não pertence ao devedor, como o de um familiar ou de um comprador de boa-fé. A lei prevê um instrumento próprio para quem está nessa posição. Documento de propriedade ajuda.
+info_339,2026-10-25T13:56:00,imagem,info/info_339.jpg,"Quando a receita é em real e a dívida em dólar, a parcela varia com o câmbio. Planejar essa diferença antes de contratar protege o caixa.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#embargosdeterceiro #penhora #protecaopatrimonial #processocivil #direitopatrimonial",pendente,,0,
+#credito #gestaodepassivos #dividasempresariais #financasempresariais #empresarios",pendente,,0,
 tw_207,2026-10-25T14:28:00,imagem,tw/tw_207.jpg,"Vontade é ótima quando aparece, mas não dá para depender dela para pagar fornecedor, revisar contrato ou estudar um caso. Faça a lista do que precisa, não do que apetece, e comece pelo primeiro item. No começo incomoda, depois vira rotina.
 
 Leonardo Rezende
@@ -2999,12 +2997,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #folhadepagamento #encargos #custofixo #caixadaempresa #empresarios",pendente,,0,
-info_157,2026-10-26T09:08:00,imagem,info/info_157.jpg,"O recurso olha a decisão, não começa o processo de novo. Por isso, ler a fundamentação com atenção antes de decidir é tão importante. E o prazo corre contra quem demora.
+info_322,2026-10-26T09:08:00,imagem,info/info_322.jpg,"Taxa nominal é a que aparece no anúncio. A efetiva é a que você paga de verdade, considerando a capitalização dos juros. Na hora de comparar propostas, olhe a efetiva e o custo total.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#recurso #prazorecursal #decisaojudicial #direitoempresarial #educacaofinanceira",pendente,,0,
+#juros #credito #gestaodepassivos #dividasempresariais #direitobancario",pendente,,0,
 tw_213,2026-10-26T09:40:00,imagem,tw/tw_213.jpg,"A dúvida dos outros a gente aprende a ignorar, a sua própria é mais difícil. Nessas horas, volte ao que já está funcionando e dê só o próximo passo pequeno, sem tentar decidir o ano inteiro. Mantendo o movimento, o caminho vai ficando mais claro.
 
 Leonardo Rezende
@@ -3057,24 +3055,24 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #aprendizado #resiliencia #autoconhecimento #mentalidade #gestaoempresarial",pendente,,0,
-info_160,2026-10-26T13:56:00,imagem,info/info_160.jpg,"A confiança é a base dessa relação, e a lei permite a troca de advogado. O importante é que o processo não fique sem representação nos prazos e que os documentos sejam repassados com cuidado.
+info_344,2026-10-26T13:56:00,imagem,info/info_344.jpg,"Conhecer cláusulas, taxas e garantias dá segurança na hora de negociar. A dúvida que fica na assinatura costuma virar custo lá na frente.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#trocadeadvogado #relacaocomocliente #processojudicial #negociacaodedividas #empreendedorismo",pendente,,0,
+#contratobancario #direitobancario #gestaodepassivos #dividasempresariais #negociacaodedividas",pendente,,0,
 tw_217,2026-10-26T14:28:00,imagem,tw/tw_217.jpg,"Cliente, banco e fornecedor querem saber se a entrega foi feita, não quantas voltas você deu. Isso até alivia, porque o tempo que levou fica só com você. Se está atrasado em relação ao que planejou, replaneje e siga, sem se punir.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
 #resultado #persistencia #entrega #empreendedorismo #mentalidade",pendente,,0,
-info_161,2026-10-26T15:00:00,imagem,info/info_161.jpg,"Muito vazamento de dados nasce de descuido pequeno: senha repetida, computador aberto, documento esquecido na impressora. Cuidar do dado dos outros faz parte do trabalho, em qualquer profissão.
+info_323,2026-10-26T15:00:00,imagem,info/info_323.jpg,"Alienação fiduciária é muito comum em financiamento de veículo e imóvel. O bem fica em garantia até a quitação. Entender isso antes de assinar evita surpresa em caso de atraso.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#lgpd #protecaodedados #vazamentodedados #seguranca #advocacia",pendente,,0,
+#alienacaofiduciaria #financiamento #garantias #direitobancario #gestaodepassivos",pendente,,0,
 tw_218,2026-10-26T15:32:00,imagem,tw/tw_218.jpg,"Num processo, a parte que conhece melhor o contrato e o prazo leva vantagem, não importa quem parece mais esperto. Nos negócios é igual: o empresário que lê o que assina e confere os números protege mais o caixa do que o que confia só no instinto.
 
 Leonardo Rezende
@@ -3117,12 +3115,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #disciplina #liberdadefinanceira #rotina #empreendedorismo #mentalidade",pendente,,0,
-info_164,2026-10-27T07:32:00,imagem,info/info_164.jpg,"Vazamento não é culpa de quem teve o dado exposto. O importante é reagir cedo: trocar acessos, acompanhar movimentações e guardar registros do que aconteceu.
+info_302,2026-10-27T07:32:00,imagem,info/info_302.jpg,"A Súmula 294 do STJ diz que a comissão de permanência não é abusiva só por existir, desde que siga a taxa média de mercado e fique limitada à taxa do contrato. O ponto de atenção é o limite. Quando a conta passa disso, vale pedir o cálculo detalhado e conversar com calma.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#vazamentodedados #lgpd #fraude #seguranca #direitodoconsumidor",pendente,,0,
+#direitobancario #dividasempresariais #gestaodepassivos #comissaodepermanencia #negociacaodedividas",pendente,,0,
 tw_222,2026-10-27T08:04:00,imagem,tw/tw_222.jpg,"O que se vê nas redes é o resultado, nunca o dia comum em que a pessoa fez o que precisava sem plateia. Disciplina é invisível: fechar o mês conferindo cada centavo, estudar quando dá preguiça, recusar o gasto fora do plano.
 
 Leonardo Rezende
@@ -3163,12 +3161,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #superacao #resiliencia #persistencia #empreendedorismo #mentalidade",pendente,,0,
-info_166,2026-10-27T11:16:00,imagem,info/info_166.jpg,"É uma informação importante para decidir com os olhos abertos. A gratuidade ajuda a acessar a Justiça, mas não apaga por completo a responsabilidade de quem perde. Vale conhecer a regra desde o começo.
+info_334,2026-10-27T11:16:00,imagem,info/info_334.jpg,"Some parcelas, juros e tarifas do mês e compare com o lucro da empresa. Se a fatia que vai para o banco é grande, vale reorganizar as dívidas.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#gratuidadedajustica #custasprocessuais #honorarios #gestaodepassivos #direitobancario",pendente,,0,
+#gestaodepassivos #dividasempresariais #fluxodecaixa #empresarios #financasempresariais",pendente,,0,
 tw_225,2026-10-27T11:48:00,imagem,tw/tw_225.jpg,"Os primeiros resultados quase nunca vêm no ritmo que a gente imagina, e é aí que muita gente abandona. Um hábito financeiro novo, como separar o caixa da empresa do pessoal, leva semanas para encaixar. Passando dessa fase, o resto fica mais leve.
 
 Leonardo Rezende
@@ -3209,12 +3207,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #realismo #planejamento #resiliencia #empreendedorismo #gestaoempresarial",pendente,,0,
-info_168,2026-10-27T15:00:00,imagem,info/info_168.jpg,"Cadastro virou rotina e a gente acaba preenchendo tudo no automático. Parar um segundo para perguntar a finalidade já protege você de muito incômodo, de spam a golpe.
+info_358,2026-10-27T15:00:00,imagem,info/info_358.jpg,"Antes de dar um bem em garantia, entenda o que ele cobre e como será liberado depois. Essa pergunta simples evita muita dor de cabeça.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#lgpd #protecaodedados #privacidade #direitodoconsumidor #seguranca",pendente,,0,
+#garantias #direitobancario #gestaodepassivos #dividasempresariais #credito",pendente,,0,
 tw_228,2026-10-27T15:32:00,imagem,tw/tw_228.jpg,"Atrás de toda empresa que deu certo tem contrato mal feito, cliente perdido e decisão errada que virou ajuste. Se você está numa fase de erros, não quer dizer que o caminho está errado. Pode ser só a parte do processo que ninguém conta.
 
 Leonardo Rezende
@@ -3257,12 +3255,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #acao #atitude #legado #empreendedorismo #mentalidade",pendente,,0,
-info_171,2026-10-28T07:32:00,imagem,info/info_171.jpg,"Acesso à Justiça não deveria depender de ter dinheiro. A Defensoria existe para isso, e cada estado tem seus critérios e canais de atendimento. Vale buscar as regras locais antes de desistir de se defender.
+info_315,2026-10-28T07:32:00,imagem,info/info_315.jpg,"Pagar só juros por meses é um alerta. Se o saldo não cai, a dívida não está sendo paga de verdade. O primeiro passo é pedir ao banco o extrato detalhado com saldo e taxas.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#defensoriapublica #acessoajustica #gratuidadedajustica #processocivil #direitosdocidadao",pendente,,0,
+#dividasempresariais #gestaodepassivos #juros #direitobancario #negociacaodedividas",pendente,,0,
 tw_232,2026-10-28T08:04:00,imagem,tw/tw_232.jpg,"Atender WhatsApp, e-mail e planilha ao mesmo tempo faz tudo andar pela metade. Reserve uma hora para uma tarefa só, com o celular longe. Terminou? Passe para a próxima. No fim do dia a diferença é grande.
 
 Leonardo Rezende
@@ -3349,12 +3347,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #atalhos #paciencia #processo #dividasempresariais #gestaodepassivos",pendente,,0,
-info_176,2026-10-28T15:00:00,imagem,info/info_176.jpg,"Um detalhe que pesa na hora de montar a defesa: explicar bem o contrato desde a primeira instância. Depois, o espaço para mudar a leitura de uma cláusula em tribunal superior é bem menor.
+info_357,2026-10-28T15:00:00,imagem,info/info_357.jpg,"Parcela que cabe no mês não significa contrato bom. Conferir custo total, garantias e prazo antes de assinar evita muito aperto depois.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#defesa #primeirainstancia #recursos #contratosbancarios #estrategiaprocessual",pendente,,0,
+#contratobancario #credito #gestaodepassivos #dividasempresariais #direitobancario",pendente,,0,
 tw_238,2026-10-28T15:32:00,imagem,tw/tw_238.jpg,"Na prática, os casos que se resolvem são os de quem foi atrás de documento, de resposta e de acordo sem sumir. A fila é longa e cansa, mas quem fica costuma ser atendido. Persistir com método vale mais do que brilhar uma vez.
 
 Leonardo Rezende
@@ -3537,12 +3535,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #dedicacao #trabalhobemfeito #carreira #advocacia #responsabilidade",pendente,,0,
-info_186,2026-10-30T07:32:00,imagem,info/info_186.jpg,"Embargos de declaração servem para esclarecer ponto obscuro, contraditório ou omisso, ou para corrigir erro material. Não servem para rediscutir o resultado só porque ele desagradou. Vale ler a decisão a tempo de pedir.
+info_304,2026-10-30T07:32:00,imagem,info/info_304.jpg,"Banco não pode pegar o seu salário direto da conta para cobrar um empréstimo comum feito com ele mesmo. É o que diz a Súmula 603 do STJ. A regra vale para empréstimo comum, e não para o consignado autorizado. Muita gente não sabe disso e acaba aceitando o desconto como se fosse normal.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#embargosdedeclaracao #recursos #prazosprocessuais #processocivil #advocacia",pendente,,0,
+#direitobancario #dividasempresariais #gestaodepassivos #contasalario #negociacaodedividas",pendente,,0,
 tw_252,2026-10-30T08:04:00,imagem,tw/tw_252.jpg,"Às vezes o que separa você da meta é só organização: documentos soltos, contas misturadas, prioridades trocadas. Antes de achar que está longe, faça o levantamento do que realmente falta. Pode ser bem menos do que parece.
 
 Leonardo Rezende
@@ -3629,24 +3627,24 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #acao #aprendizado #execucao #empreendedorismo #gestaoempresarial",pendente,,0,
-ex_l3_22,2026-10-30T15:00:00,imagem,info/ex_l3_22.jpg,"O CPC, no art. 1.003, §6º, manda comprovar o feriado local no ato de entrar com o recurso. É um detalhe pequeno, mas o efeito é grande.
+info_347,2026-10-30T15:00:00,imagem,info/info_347.jpg,"Confiança leva anos para ser construída e minutos para ser perdida. Por isso eu prefiro dizer a verdade, mesmo quando ela é difícil de ouvir.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#cpc #prazorecursal #recurso #negociacaodedividas #empreendedorismo",pendente,,0,
+#confianca #advocacia #reputacao #gestaodepassivos #empresarios",pendente,,0,
 tw_258,2026-10-30T15:32:00,imagem,tw/tw_258.jpg,"Delegar é importante, mas entender o que você assina e o que acontece nos seus processos não dá para delegar. Leia o contrato, pergunte o que não entendeu e acompanhe os andamentos. Quem conhece o assunto decide melhor e é mais difícil de enganar.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
 #estudo #aprendizado #conhecimento #advocacia #dividasempresariais",pendente,,0,
-info_191,2026-10-30T16:04:00,imagem,info/info_191.jpg,"Reconvenção é uma forma de a pessoa processada levar ao mesmo processo o seu próprio pedido contra quem a processou, desde que haja ligação com o tema. Nem toda situação comporta, e há regras de forma.
+info_313,2026-10-30T16:04:00,imagem,info/info_313.jpg,"Limpar o nome começa pela origem: qual é a dívida, quanto está valendo hoje e se existe proposta. Depois do pagamento, guarde o comprovante e acompanhe a baixa do registro.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#reconvencao #defesa #processocivil #direitoprocessual #advocacia",pendente,,0,
+#negativacao #negociacaodedividas #dividasempresariais #gestaodepassivos #direitobancario",pendente,,0,
 tw_259,2026-10-30T16:36:00,imagem,tw/tw_259.jpg,"Saber onde você erra, o que te tira do sério e como reage sob pressão evita conflito desnecessário. Quem se conhece negocia com mais segurança, porque não precisa provar nada a ninguém. Anote seus padrões e use a seu favor.
 
 Leonardo Rezende
@@ -3723,12 +3721,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #construcao #longoprazo #reputacao #empreendedorismo #mentalidade",pendente,,0,
-info_196,2026-10-31T11:16:00,imagem,info/info_196.jpg,"Em ações que discutem juros e cálculos, a perícia pode esclarecer muito, mas tem custo e prazo. Conversar sobre isso antes de pedir evita surpresa, e a gratuidade da Justiça pode alterar o quadro.
+info_326,2026-10-31T11:16:00,imagem,info/info_326.jpg,"Juros simples incidem só sobre o valor inicial. Juros compostos incidem também sobre os juros acumulados. Entender essa diferença ajuda a perceber por que algumas dívidas crescem tão rápido.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#pericia #periciacontabil #revisionalbancaria #negociacaodedividas #empreendedorismo",pendente,,0,
+#juros #financasempresariais #gestaodepassivos #dividasempresariais #credito",pendente,,0,
 tw_265,2026-10-31T11:48:00,imagem,tw/tw_265.jpg,"Um prazo que passa por um dia ou uma cláusula lida por cima podem custar caro. Antes de assinar ou protocolar qualquer coisa, releia com calma e confira datas, valores e nomes. Cinco minutos de revisão poupam muita dor de cabeça.
 
 Leonardo Rezende
@@ -3781,24 +3779,24 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #disciplina #recomeco #habitos #empreendedorismo #mentalidade",pendente,,0,
-info_199,2026-10-31T16:04:00,imagem,info/info_199.jpg,"Um cuidado simples que ajuda: ler o pedido da inicial linha por linha e perguntar o que está sendo cobrado de fato. O resto da conversa, da defesa à audiência, nasce dali.
+info_333,2026-10-31T16:04:00,imagem,info/info_333.jpg,"Alongar a dívida alivia o caixa agora, mas costuma custar mais juros no final. Decidir com os dois números na mesa evita arrependimento.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#peticaoinicial #defesajudicial #acaodecobranca #advogadoempresarial #gestaoempresarial",pendente,,0,
+#gestaodepassivos #dividasempresariais #fluxodecaixa #credito #negociacaodedividas",pendente,,0,
 tw_269,2026-10-31T16:36:00,imagem,tw/tw_269.jpg,"Trabalhar sem pausa derruba a qualidade das decisões, e decisão ruim numa empresa custa caro. Mas descanso sem fim também trava. Coloque o descanso na agenda, com hora para começar e terminar, como qualquer compromisso.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
 #descanso #equilibrio #produtividade #empreendedorismo #mentalidade",pendente,,0,
-ex_l3_25,2026-10-31T17:40:00,imagem,info/ex_l3_25.jpg,"O CDC prevê as ações coletivas, a partir do art. 81. Quando um tema é decidido para muitos consumidores de uma vez, o cuidado com a defesa e com o diálogo precisa ser ainda maior.
+info_312,2026-10-31T17:40:00,imagem,info/info_312.jpg,"Descobrir uma dívida escondida assusta, mas o primeiro passo é sempre o mesmo: reunir contrato, saldo e vencimentos. Com os números na mesa, dá para escolher o caminho com calma.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#acaocoletiva #cdc #defesadaempresa #advogadoempresarial #gestaoempresarial",pendente,,0,
+#dividasempresariais #gestaodepassivos #fluxodecaixa #empresarios #direitobancario",pendente,,0,
 tw_270,2026-10-31T18:12:00,imagem,tw/tw_270.jpg,"Existe um meio-termo: começar cedo e revisar com calma. Quem deixa tudo para o último dia entrega correndo, e quem demora demais perde o prazo. Para qualquer obrigação, seja imposto, defesa ou parcela, comece com folga e capriche.
 
 Leonardo Rezende
@@ -3909,24 +3907,24 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #objetivos #clareza #metas #dividasempresariais #empreendedorismo",pendente,,0,
-info_205,2026-11-01T15:00:00,imagem,info/info_205.jpg,"Senha repetida é como usar a mesma chave para a casa, o carro e o escritório. Se um site vaza, os outros ficam expostos. Um gerenciador de senhas ajuda muita gente a não depender da memória.
+info_324,2026-11-01T15:00:00,imagem,info/info_324.jpg,"São caminhos diferentes. Na extrajudicial, a empresa negocia o plano diretamente com os credores. Na judicial, o processo corre na Justiça desde o começo. Qual serve depende da situação de cada empresa.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#senhasegura #gerenciadordesenhas #segurancadigital #advocacia #empresarios",pendente,,0,
+#recuperacaojudicial #recuperacaoextrajudicial #gestaodepassivos #dividasempresariais #empresarios",pendente,,0,
 tw_278,2026-11-01T15:32:00,imagem,tw/tw_278.jpg,"Às vezes o cliente quer uma saída rápida, e o melhor é explicar que ela não existe ou que tem risco. Dizer isso exige coragem, mas é o que mantém a confiança. Estudar sempre e assumir o que se faz é a base do trabalho.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
 #responsabilidade #etica #estudo #advocacia #direito",pendente,,0,
-info_206,2026-11-01T16:04:00,imagem,info/info_206.jpg,"Gratuidade da justiça não é favor, é garantia para quem não pode arcar com os custos sem comprometer a própria sobrevivência. Uma declaração honesta e, se pedido, comprovantes organizados costumam ser o caminho.
+info_360,2026-11-01T16:04:00,imagem,info/info_360.jpg,"Prometer resultado não é o caminho. Explicar riscos, prazos e passos reais constrói uma relação de confiança que dura muito mais.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#gratuidadedajustica #acessoajustica #custasprocessuais #processocivil #direitodoconsumidor",pendente,,0,
+#confianca #advocacia #transparencia #gestaodepassivos #empresarios",pendente,,0,
 tw_279,2026-11-01T16:36:00,imagem,tw/tw_279.jpg,"Se eu digo que algo é certo e depois não acontece, perco a confiança da pessoa. Por isso falo sempre dos riscos e do que pode dar errado, além do que pode dar certo. Para quem empreende vale igual: prometa só o que dá para entregar.
 
 Leonardo Rezende
@@ -4015,12 +4013,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #crescimento #desafios #zonadeconforto #empreendedorismo #gestaodepassivos",pendente,,0,
-info_211,2026-11-02T12:20:00,imagem,info/info_211.jpg,"Honorários também precisam ser tratados dentro do processo. Se a decisão silencia sobre eles, existe um recurso próprio, os embargos de declaração, no prazo certo. Depois, a porta se fecha.
+info_336,2026-11-02T12:20:00,imagem,info/info_336.jpg,"Divida o total de dívidas pelo faturamento anual da empresa. Quanto maior o resultado, menor a folga para imprevistos. É um número simples que orienta decisões.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#honorarios #embargosdedeclaracao #recurso #direitoempresarial #educacaofinanceira",pendente,,0,
+#gestaodepassivos #dividasempresariais #financasempresariais #empresarios #fluxodecaixa",pendente,,0,
 rb29,2026-11-02T12:52:00,reel,reels/rb29.mp4,"Aperto de caixa acontece com praticamente todo mundo que empreende: uma venda que caiu, um cliente que atrasou, um imposto que veio mais alto.
 
 O que muda de uma empresa para outra é como ela atravessa esse momento. Quem tem um especialista ao lado costuma agir com mais calma, olhar o passivo por inteiro e escolher o caminho com mais informação, em vez de decidir no desespero.
@@ -4143,12 +4141,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #credibilidade #compromisso #palavra #empreendedorismo #advocacia",pendente,,0,
-info_218,2026-11-03T11:16:00,imagem,info/info_218.jpg,"O golpe de hoje parece verdadeiro porque usa informação verdadeira. Se alguém pedir dinheiro, código ou clique em link, encerre o contato e procure a empresa pelo telefone ou app que você já conhece.
+info_348,2026-11-03T11:16:00,imagem,info/info_348.jpg,"Todo mundo cumpre o combinado quando está animado. A diferença aparece nos dias em que seria mais fácil desistir. É aí que se constrói resultado.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#golpefinanceiro #fraude #segurancadigital #direitodoconsumidor #negociacaodedividas",pendente,,0,
+#perseveranca #disciplina #mentalidade #advocacia #empresarios",pendente,,0,
 tw_295,2026-11-03T11:48:00,imagem,tw/tw_295.jpg,"Motivação vai e volta, hábito segue mesmo sem vontade. Em vez de esperar o ânimo para conferir o caixa, defina um dia e um horário fixos na semana e transforme isso em rotina. Assim o plano funciona até nas semanas ruins.
 
 Leonardo Rezende
@@ -4223,12 +4221,12 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #acordo #quitacao #gestaodepassivos #negociacaodedivida #empresario",pendente,,0,
-ex_l4_03,2026-11-03T17:40:00,imagem,info/ex_l4_03.jpg,"Citação é o aviso oficial de que existe uma ação contra você. A partir dali existe um prazo para se defender. Não deixe a carta parada.
+info_309,2026-11-03T17:40:00,imagem,info/info_309.jpg,"A multa do contrato tem um teto. O art. 412 do Código Civil diz que a cláusula penal não pode passar do valor da obrigação principal. Parece óbvio, mas já vi contrato em que a conta final vai muito além do que foi combinado no começo.
 
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#citacao #prazoparadefesa #processocivil #dividasempresariais #advocacia",pendente,,0,
+#direitobancario #dividasempresariais #gestaodepassivos #contratobancario #juros",pendente,,0,
 tw_300,2026-11-03T18:12:00,imagem,tw/tw_300.jpg,"Tem empresário que acerta aos vinte e cinco anos e outro só depois dos cinquenta. Cada negócio tem o seu ritmo de maturação. Em vez de se cobrar por um prazo que não é seu, continue cuidando do básico: caixa, clientes e aprendizado.
 
 Leonardo Rezende
@@ -4241,4 +4239,9 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #crescimentodaempresa #capitaldegiro #fluxodecaixa #financasempresariais #empresarios",pendente,,0,
->>>>>>> Stashed changes,,,,,,,,
+info_349,2026-10-05T18:58:00,imagem,info/info_349.jpg,"Fazer todo dia o que precisa ser feito, mesmo sem vontade, vale mais do que inspiração de vez em quando. Disciplina é o que sustenta qualquer carreira.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#disciplina #constancia #mentalidade #advocacia #trabalho",pendente,,0,

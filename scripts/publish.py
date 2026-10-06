@@ -70,6 +70,21 @@ def preparar(rows):
     ok = [r for r in rows if not (r.get("id") or "").startswith(("<<<<<<<", "=======", ">>>>>>>")) and (r.get("id") or "").strip()]
     if len(ok) != len(rows): rows[:] = ok; mudou = True
     qdir = os.path.dirname(FILA)
+    # plano novo (queue/plano.csv): troca tudo que está pendente a partir da 1ª data do plano pelos posts do plano.
+    # Os ids do plano começam com "v2_"; por isso, depois de aplicado, nada mais muda (idempotente).
+    plano = ler_csv(os.path.join(qdir, "plano.csv"))
+    if plano:
+        corte = min(x["datetime"] for x in plano)
+        manter = [r for r in rows if not (r["status"] == "pendente" and r["datetime"] >= corte and not r["id"].startswith("v2_"))]
+        if len(manter) != len(rows):
+            print("plano: removidos", len(rows) - len(manter), "posts antigos pendentes a partir de", corte); rows[:] = manter; mudou = True
+        ids0 = {r["id"] for r in rows}
+        novos = [x for x in plano if x["id"] not in ids0]
+        for x in novos:
+            rows.append({"id": x["id"], "datetime": x["datetime"], "tipo": x["tipo"], "arquivo": x["arquivo"], "legenda": x["legenda"],
+                         "status": "pendente", "post_id": "", "tentativas": "0", "erro": ""})
+        if novos:
+            print("plano: adicionados", len(novos)); rows.sort(key=lambda r: r["datetime"]); mudou = True
     for s in ler_csv(os.path.join(qdir, "substituicoes.csv")):
         for r in rows:
             if r["id"] == s["id_antigo"] and r["status"] in ("pendente", "erro"):

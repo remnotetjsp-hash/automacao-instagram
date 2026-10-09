@@ -19,7 +19,7 @@ API = os.environ.get("API_BASE", "https://graph.instagram.com/v22.0").rstrip("/"
 UID = os.environ.get("IG_USER_ID", "")
 TOKEN = os.environ.get("IG_TOKEN", "")
 BASE = os.environ.get("MEDIA_BASE_URL", "")
-MAXRUN = int(os.environ.get("MAX_POR_EXECUCAO", "3"))
+MAXRUN = int(os.environ.get("MAX_POR_EXECUCAO", "6"))
 DRY = os.environ.get("DRY_RUN") == "1"
 MAX_TENT = 3
 CAMPOS = ["id", "datetime", "tipo", "arquivo", "legenda", "status", "post_id", "tentativas", "erro"]
@@ -70,14 +70,13 @@ def preparar(rows):
     ok = [r for r in rows if not (r.get("id") or "").startswith(("<<<<<<<", "=======", ">>>>>>>")) and (r.get("id") or "").strip()]
     if len(ok) != len(rows): rows[:] = ok; mudou = True
     qdir = os.path.dirname(FILA)
-    # plano novo (queue/plano.csv): troca tudo que está pendente a partir da 1ª data do plano pelos posts do plano.
-    # Os ids do plano começam com "v2_"; por isso, depois de aplicado, nada mais muda (idempotente).
+    # plano novo (queue/plano.csv): substitui TODA a fila pendente antiga (ids que não começam com "v3_").
+    # Os ids do plano começam com "v3_"; depois de aplicado, nada mais muda (idempotente).
     plano = ler_csv(os.path.join(qdir, "plano.csv"))
     if plano:
-        corte = min(x["datetime"] for x in plano)
-        manter = [r for r in rows if not (r["status"] == "pendente" and r["datetime"] >= corte and not r["id"].startswith("v2_"))]
+        manter = [r for r in rows if not (r["status"] in ("pendente", "erro") and not r["id"].startswith("v3_"))]
         if len(manter) != len(rows):
-            print("plano: removidos", len(rows) - len(manter), "posts antigos pendentes a partir de", corte); rows[:] = manter; mudou = True
+            print("plano: removidos", len(rows) - len(manter), "posts antigos pendentes"); rows[:] = manter; mudou = True
         ids0 = {r["id"] for r in rows}
         novos = [x for x in plano if x["id"] not in ids0]
         for x in novos:
@@ -104,8 +103,26 @@ def salvar(rows):
 
 def main():
     rows = ler_csv(FILA)
+    # MODO PAUSA: se existir queue/PAUSA, nada é publicado e tudo que estava pendente vira "cancelado".
+    # Para voltar a postar: apague queue/PAUSA, coloque os novos posts em queue/plano.csv (veja RETOMAR.md).
+    if os.path.exists(os.path.join(os.path.dirname(FILA), "PAUSA")):
+        n = 0
+        for r in rows:
+            if r["status"] in ("pendente", "erro"): r["status"] = "cancelado"; n += 1
+        if n:
+            print("PAUSA: cancelados", n, "posts pendentes")
+            if not DRY: salvar(rows)
+        print("PAUSA ativa: nada será publicado."); return
     if preparar(rows) and not DRY: salvar(rows)
     agora = datetime.now(SP)
+    # posts pendentes atrasados há mais de 12 h (ex.: depois de uma pausa) não saem de uma vez: viram "expirado"
+    exp = 0
+    for r in rows:
+        if r["status"] == "pendente" and (agora - datetime.fromisoformat(r["datetime"]).replace(tzinfo=SP)).total_seconds() > 12 * 3600:
+            r["status"] = "expirado"; exp += 1
+    if exp:
+        print("expirados (atrasados > 12h):", exp)
+        if not DRY: salvar(rows)
     pend = [r for r in rows if r["status"] in ("pendente", "erro") and int(r["tentativas"] or 0) < MAX_TENT
             and datetime.fromisoformat(r["datetime"]).replace(tzinfo=SP) <= agora]
     pend.sort(key=lambda r: r["datetime"])

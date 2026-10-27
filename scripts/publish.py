@@ -5,7 +5,8 @@ Lê queue/fila.csv, publica o que já está na hora (horário de São Paulo) e g
 Variáveis de ambiente:
   IG_USER_ID, IG_TOKEN      credenciais (secrets do GitHub)
   MEDIA_BASE_URL            URL pública base das mídias (ex.: https://raw.githubusercontent.com/USUARIO/REPO/main/media/)
-  MAX_POR_EXECUCAO          teto de posts por execução (padrão 3)
+  MAX_POR_EXECUCAO          teto de posts por execução (padrão 6)
+Tipos: imagem | reel | carrossel (arquivo = caminhos separados por "|", de 2 a 10 imagens)
   DRY_RUN=1                 só mostra o que faria
   API_BASE                  padrão https://graph.instagram.com/v22.0 (usado nos testes)
 """
@@ -44,19 +45,36 @@ def cota_restante():
     except Exception as e:
         print("aviso: não consegui ler a cota:", e); return 100
 
+def esperar(cid, video=False):
+    """Espera o Instagram terminar de processar o container (imagem: segundos; vídeo: até ~10 min)."""
+    for _ in range(60):
+        time.sleep(10 if video else 5)
+        st = http("GET", cid, {"fields": "status_code"}).get("status_code")
+        if st == "FINISHED": return
+        if st in ("ERROR", "EXPIRED"): raise RuntimeError(f"processamento {st}")
+    raise RuntimeError("timeout no processamento da mídia")
+
+def url_midia(arq):
+    return BASE.rstrip("/") + "/" + urllib.parse.quote(arq.strip())
+
 def publicar(row):
-    url = BASE.rstrip("/") + "/" + urllib.parse.quote(row["arquivo"])
+    if row["tipo"] == "carrossel":
+        # carrossel: um container por imagem (is_carousel_item) e depois o container CAROUSEL com a legenda
+        arqs = [a for a in row["arquivo"].split("|") if a.strip()]
+        if not 2 <= len(arqs) <= 10: raise RuntimeError(f"carrossel precisa de 2 a 10 imagens (tem {len(arqs)})")
+        filhos = []
+        for a in arqs:
+            cid = http("POST", f"{UID}/media", {"image_url": url_midia(a), "is_carousel_item": "true"})["id"]
+            esperar(cid); filhos.append(cid)
+        pid = http("POST", f"{UID}/media", {"media_type": "CAROUSEL", "children": ",".join(filhos), "caption": row["legenda"]})["id"]
+        esperar(pid)
+        return http("POST", f"{UID}/media_publish", {"creation_id": pid})["id"]
+    url = url_midia(row["arquivo"])
     p = {"caption": row["legenda"]}
     if row["tipo"] == "reel": p.update({"media_type": "REELS", "video_url": url, "share_to_feed": "true"})
     else: p["image_url"] = url
     cid = http("POST", f"{UID}/media", p)["id"]
-    # espera o Instagram terminar de processar (imagem: segundos; vídeo: até ~10 min)
-    for _ in range(60):
-        time.sleep(5 if row["tipo"] != "reel" else 10)
-        st = http("GET", cid, {"fields": "status_code"}).get("status_code")
-        if st == "FINISHED": break
-        if st in ("ERROR", "EXPIRED"): raise RuntimeError(f"processamento {st}")
-    else: raise RuntimeError("timeout no processamento da mídia")
+    esperar(cid, video=row["tipo"] == "reel")
     return http("POST", f"{UID}/media_publish", {"creation_id": cid})["id"]
 
 def ler_csv(path):
@@ -72,7 +90,9 @@ def preparar(rows):
     qdir = os.path.dirname(FILA)
     # plano novo (queue/plano.csv): substitui TODA a fila pendente antiga (ids que não começam com "v3_").
     # Os ids do plano começam com "v3_"; depois de aplicado, nada mais muda (idempotente).
-    plano = ler_csv(os.path.join(qdir, "plano.csv"))
+    subs = ler_csv(os.path.join(qdir, "substituicoes.csv"))
+    trocados = {x["id_antigo"] for x in subs}
+    plano = [x for x in ler_csv(os.path.join(qdir, "plano.csv")) if x["id"] not in trocados]
     if plano:
         manter = [r for r in rows if not (r["status"] in ("pendente", "erro") and not r["id"].startswith("v3_"))]
         if len(manter) != len(rows):
@@ -84,11 +104,14 @@ def preparar(rows):
                          "status": "pendente", "post_id": "", "tentativas": "0", "erro": ""})
         if novos:
             print("plano: adicionados", len(novos)); rows.sort(key=lambda r: r["datetime"]); mudou = True
-    for s in ler_csv(os.path.join(qdir, "substituicoes.csv")):
+    for s in subs:
         for r in rows:
             if r["id"] == s["id_antigo"] and r["status"] in ("pendente", "erro"):
                 r.update({"id": s["id"], "arquivo": s["arquivo"], "legenda": s["legenda"], "status": "pendente", "tentativas": "0", "erro": ""})
+                if (s.get("tipo") or "").strip(): r["tipo"] = s["tipo"].strip()
+                if (s.get("datetime") or "").strip(): r["datetime"] = s["datetime"].strip()
                 print("substituído:", s["id_antigo"], "→", s["id"]); mudou = True
+    if mudou: rows.sort(key=lambda r: r["datetime"])
     ids = {r["id"] for r in rows}
     for e in ler_csv(os.path.join(qdir, "extras.csv")):
         if e["id"] not in ids:

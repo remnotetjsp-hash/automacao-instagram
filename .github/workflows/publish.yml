@@ -1,7 +1,8 @@
 name: publicar-instagram
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # minutos quebrados: o GitHub atrasa/descarta agendamentos no minuto 00 em horários de pico
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 permissions:
   contents: write

@@ -1198,6 +1198,10 @@ Especialista em dívidas empresariais
 v3_x1911_info_645_cancelado,2026-11-01T00:00:00,imagem,info/info_645.jpg,(cancelado: dia de posts de IA),expirado,,0,
 v3_x2011_info_685_cancelado,2026-11-01T00:00:00,imagem,info/info_685.jpg,(cancelado: dia de posts de IA),expirado,,0,
 v3_x2111_info_680_cancelado,2026-11-01T00:00:00,imagem,info/info_680.jpg,(cancelado: dia de posts de IA),expirado,,0,
+v3_x2211_info_712_cancelado,2026-11-01T00:00:00,imagem,info/info_712.jpg,(cancelado: só posts de IA a partir de 20/11),expirado,,0,
+v3_x2211_tw_494_cancelado,2026-11-01T00:00:00,imagem,info/tw_494.jpg,(cancelado: só posts de IA a partir de 20/11),expirado,,0,
+v3_x2211_rg16_cancelado,2026-11-01T00:00:00,reel,info/rg16.jpg,(cancelado: só posts de IA a partir de 20/11),expirado,,0,
+v3_x2211_info_687_cancelado,2026-11-01T00:00:00,imagem,info/info_687.jpg,(cancelado: só posts de IA a partir de 20/11),expirado,,0,
 v3_info_083,2026-11-01T11:45:00,imagem,info/info_083.jpg,"Título executivo é um documento a que a lei dá força especial para cobrar. Quando chega uma execução, vale perguntar qual é o título e se ele cumpre os requisitos. É uma das primeiras conferências que faço.
 
 Leonardo Rezende
@@ -1734,39 +1738,7 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #negativacao #protesto #cadastrodecredito #gestaodepassivos #dividasempresariais",publicado,18133153267698715,0,
-v3_x2211_info_712,2026-11-22T08:45:00,imagem,info/info_712.jpg,"Uma conta simples: caixa disponível dividido pelo gasto médio de cada dia. O resultado são os dias de fôlego da empresa. Saber esse número muda a forma de negociar e de assumir novos compromissos.
-
-Não precisa ser exato, precisa existir.
-
-Refaça a conta todo mês e compare: o número conta uma história sobre o caixa.
-
-Leonardo Rezende
-Especialista em dívidas empresariais
-
-#gestaodepassivos #dividasempresariais #empresarios #financasempresariais #fluxodecaixa",pendente,,0,
-v3_x2211_tw_494,2026-11-22T11:00:00,imagem,tw/tw_494.jpg,"Livro, artigo e relato de quem já passou pelo problema trazem anos de experiência em poucas horas. Quem lê evita parte dos tombos. Quem não lê acaba descobrindo tudo na prática, com o custo saindo do próprio bolso.
-
-Leonardo Rezende
-Especialista em dívidas empresariais
-
-#leitura #aprendizado #conhecimento #empreendedorismo #mentalidade",pendente,,0,
-v3_x2211_rg16,2026-11-22T14:30:00,reel,reels/rg16.mp4,"Lucro no relatório não é o mesmo que dinheiro na conta. A empresa pode vender bem e ainda assim ter dificuldade para pagar o que vence na semana.
-
-Por isso o fluxo de caixa importa: ele mostra, dia a dia ou semana a semana, o que entra e o que sai. Com essa projeção, fica mais fácil enxergar o buraco antes de ele aparecer.
-
-Número organizado dá tranquilidade para decidir com calma.
-
-Leonardo Rezende
-Especialista em dívidas empresariais
-
-#fluxodecaixa #financaspj #gestaofinanceira #empreendedorismo #dividasempresariais",pendente,,0,
-v3_x2211_info_687,2026-11-22T17:45:00,imagem,info/info_687.jpg,"Depois de pagar uma dívida protestada, a carta de anuência é o documento em que o credor confirma o pagamento e concorda com o cancelamento do protesto. Peça, guarde uma cópia e confira se a baixa foi feita.
-
-Leonardo Rezende
-Especialista em dívidas empresariais
-
-#protesto #cartorio #gestaodepassivos #dividasempresariais #direitobancario",pendente,,0,
-v3_ia_1911_car_caderno,2026-11-19T12:15:00,carrossel,ia/l1_caderno_01.jpg|ia/l1_caderno_02.jpg|ia/l1_caderno_03.jpg|ia/l1_caderno_04.jpg|ia/l1_caderno_05.jpg|ia/l1_caderno_06.jpg|ia/l1_caderno_07.jpg|ia/l1_caderno_08.jpg|ia/l1_caderno_09.jpg,"Antes de pedir a primeira peça ao Claude, vale gastar alguns minutos na configuração. Sem isso, cada conversa começa do zero e a resposta vem genérica.
+v3_ia_d1_car,2026-11-20T12:15:00,carrossel,ia/l1_caderno_01.jpg|ia/l1_caderno_02.jpg|ia/l1_caderno_03.jpg|ia/l1_caderno_04.jpg|ia/l1_caderno_05.jpg|ia/l1_caderno_06.jpg|ia/l1_caderno_07.jpg|ia/l1_caderno_08.jpg|ia/l1_caderno_09.jpg,"Antes de pedir a primeira peça ao Claude, vale gastar alguns minutos na configuração. Sem isso, cada conversa começa do zero e a resposta vem genérica.
 
 No carrossel estão os 6 ajustes que eu faço: projeto por cliente, instruções, documentos no Contexto, skills, conectores e a escolha de modelo e esforço. Os nomes dos menus são das telas de novembro de 2026 e podem mudar.
 
@@ -1777,8 +1749,8 @@ Fonte: telas do claude.ai (08/11/2026).
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#inteligenciaartificial #claudeai #advocacia #advogados #direitodigital",erro,,1,"HTTP 400: {""error"":{""message"":""Only photo or video can be accepted as media type."",""type"":""OAuthException"",""code"":9004,""error_subcode"":2207052,""is_transient"":false,""error_user_title"":""Media download has failed. The media URI doesn't meet our requirements."",""error_user_msg"":""The media could not be fe"
-v3_ia_1911_reel,2026-11-19T19:30:00,reel,ia/l1_motion_dia1.mp4,"Três ajustes antes de pedir qualquer peça: projeto por cliente, instruções do projeto e documentos do caso no Contexto. Com isso, cada conversa já começa sabendo do caso.
+#inteligenciaartificial #claudeai #advocacia #advogados #direitodigital",pendente,,0,
+v3_ia_d1_reel,2026-11-20T19:30:00,reel,ia/l1_motion_dia1.mp4,"Três ajustes antes de pedir qualquer peça: projeto por cliente, instruções do projeto e documentos do caso no Contexto. Com isso, cada conversa já começa sabendo do caso.
 
 O resultado continua sendo um rascunho: a revisão é sua.
 
@@ -1788,7 +1760,7 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #claudeai #inteligenciaartificial #advocacia #produtividade #advogados",pendente,,0,
-v3_ia_1911_post,2026-11-19T20:45:00,imagem,ia/l1_post_dia1.jpg,"Uma pesquisa da FGV Direito SP com 495 profissionais mostrou que 8 em cada 10 já usam IA com frequência no trabalho. 58% usam todos os dias, mas só 20% das organizações têm regras formais de uso.
+v3_ia_d1_post,2026-11-20T20:45:00,imagem,ia/l1_post_dia1.jpg,"Uma pesquisa da FGV Direito SP com 495 profissionais mostrou que 8 em cada 10 já usam IA com frequência no trabalho. 58% usam todos os dias, mas só 20% das organizações têm regras formais de uso.
 
 A pergunta que fica: quem confere o que a IA escreveu? No escritório, essa conferência precisa ter dono e método.
 
@@ -1798,7 +1770,7 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #inteligenciaartificial #advocacia #direito #pesquisa #advogados",pendente,,0,
-v3_ia_2011_car_cet,2026-11-20T12:15:00,carrossel,ia/l1_cet_01.jpg|ia/l1_cet_02.jpg|ia/l1_cet_03.jpg|ia/l1_cet_04.jpg|ia/l1_cet_05.jpg|ia/l1_cet_06.jpg|ia/l1_cet_07.jpg|ia/l1_cet_08.jpg|ia/l1_cet_09.jpg,"Dá para comparar o juro de uma CCB com a taxa que o mesmo banco cobrava na mesma semana. O Banco Central publica esses dados de graça, por modalidade e por instituição.
+v3_ia_d2_car,2026-11-21T12:15:00,carrossel,ia/l1_cet_01.jpg|ia/l1_cet_02.jpg|ia/l1_cet_03.jpg|ia/l1_cet_04.jpg|ia/l1_cet_05.jpg|ia/l1_cet_06.jpg|ia/l1_cet_07.jpg|ia/l1_cet_08.jpg|ia/l1_cet_09.jpg,"Dá para comparar o juro de uma CCB com a taxa que o mesmo banco cobrava na mesma semana. O Banco Central publica esses dados de graça, por modalidade e por instituição.
 
 No carrossel: como achar a modalidade e a semana no site do Bacen, baixar o relatório e pedir ao Claude a comparação, com a página de cada dado.
 
@@ -1812,7 +1784,7 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #direitobancario #juros #bancocentral #claudeai #advocacia",pendente,,0,
-v3_ia_2011_reel,2026-11-20T19:30:00,reel,ia/l1_motion_dia2.mp4,"""Analise esse contrato"" quase sempre gera resposta de manual. O mesmo pedido, em 5 partes, muda o resultado: quem você é, o que quer, o formato, o limite e o que fazer depois.
+v3_ia_d2_reel,2026-11-21T19:30:00,reel,ia/l1_motion_dia2.mp4,"""Analise esse contrato"" quase sempre gera resposta de manual. O mesmo pedido, em 5 partes, muda o resultado: quem você é, o que quer, o formato, o limite e o que fazer depois.
 
 Teste com um contrato de dados fictícios antes de usar com cliente.
 
@@ -1822,7 +1794,7 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #claudeai #prompt #inteligenciaartificial #advocacia #contratos",pendente,,0,
-v3_ia_2011_post,2026-11-20T20:45:00,imagem,ia/l1_post_dia2.jpg,"O problema quase nunca é a IA. É o pedido.
+v3_ia_d2_post,2026-11-21T20:45:00,imagem,ia/l1_post_dia2.jpg,"O problema quase nunca é a IA. É o pedido.
 
 Quando você diz quem é, o que quer, em que formato e qual o limite, a resposta deixa de ser genérica. E pedir ""não informado"" quando o dado não existe evita número inventado.
 
@@ -1832,7 +1804,7 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #inteligenciaartificial #claudeai #advocacia #prompt #advogados",pendente,,0,
-v3_ia_2111_car_prazos,2026-11-21T12:15:00,carrossel,ia/l1_prazos_01.jpg|ia/l1_prazos_02.jpg|ia/l1_prazos_03.jpg|ia/l1_prazos_04.jpg|ia/l1_prazos_05.jpg|ia/l1_prazos_06.jpg|ia/l1_prazos_07.jpg|ia/l1_prazos_08.jpg,"As intimações publicadas no Diário de Justiça Eletrônico Nacional (DJEN) podem ser consultadas de graça pelo número da OAB, no site Comunica PJe, do CNJ.
+v3_ia_d3_car,2026-11-22T12:15:00,carrossel,ia/l1_prazos_01.jpg|ia/l1_prazos_02.jpg|ia/l1_prazos_03.jpg|ia/l1_prazos_04.jpg|ia/l1_prazos_05.jpg|ia/l1_prazos_06.jpg|ia/l1_prazos_07.jpg|ia/l1_prazos_08.jpg,"As intimações publicadas no Diário de Justiça Eletrônico Nacional (DJEN) podem ser consultadas de graça pelo número da OAB, no site Comunica PJe, do CNJ.
 
 No carrossel: como buscar, copiar as comunicações e pedir ao Claude uma tabela com disponibilização, publicação, início do prazo e providência. Pela lei, a publicação conta no 1º dia útil seguinte à disponibilização, e o prazo começa no 1º dia útil seguinte à publicação.
 
@@ -1846,7 +1818,7 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #prazos #advocacia #cnj #claudeai #advogados",pendente,,0,
-v3_ia_2111_reel,2026-11-21T19:30:00,reel,ia/l1_motion_dia3.mp4,"Dez contratos, cinco bancos e uma tarde copiando números para a planilha. Com o pedido certo, o Claude monta a tabela com uma linha por contrato e a página de cada dado. A tarde que sobra vai para conferir.
+v3_ia_d3_reel,2026-11-22T19:30:00,reel,ia/l1_motion_dia3.mp4,"Dez contratos, cinco bancos e uma tarde copiando números para a planilha. Com o pedido certo, o Claude monta a tabela com uma linha por contrato e a página de cada dado. A tarde que sobra vai para conferir.
 
 Salva este vídeo e testa com dados fictícios.
 
@@ -1854,7 +1826,7 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #direitobancario #claudeai #inteligenciaartificial #advocacia #produtividade",pendente,,0,
-v3_ia_2111_post,2026-11-21T20:45:00,imagem,ia/l1_post_dia3.jpg,"Jurisprudência que veio da IA passa por 4 conferências antes de entrar na peça: o processo existe, o julgado diz o que a IA disse, o entendimento ainda vale e a citação é literal, do inteiro teor oficial.
+v3_ia_d3_post,2026-11-22T20:45:00,imagem,ia/l1_post_dia3.jpg,"Jurisprudência que veio da IA passa por 4 conferências antes de entrar na peça: o processo existe, o julgado diz o que a IA disse, o entendimento ainda vale e a citação é literal, do inteiro teor oficial.
 
 A IA ajuda a achar o caminho. Quem confirma é a fonte oficial.
 
@@ -1862,3 +1834,103 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #jurisprudencia #inteligenciaartificial #advocacia #direito #advogados",pendente,,0,
+v3_ia_d4_car,2026-11-23T12:15:00,carrossel,ia/l1_plugin_01.jpg|ia/l1_plugin_02.jpg|ia/l1_plugin_03.jpg|ia/l1_plugin_04.jpg|ia/l1_plugin_05.jpg|ia/l1_plugin_06.jpg|ia/l1_plugin_07.jpg|ia/l1_plugin_08.jpg|ia/l1_plugin_09.jpg,"A Anthropic publicou o Claude for Legal, um pacote de plugins jurídicos de código aberto. A maior parte foi feita para o direito dos Estados Unidos.
+
+No carrossel: o que é, onde instalar, quais servem com adaptação e como levar um plugin para a lei brasileira em 3 passos. Para direito bancário não há plugin pronto: o caminho é a skill do próprio escritório.
+
+Comenta PLUGIN que eu te mando o PDF com a lista do que serve e o pedido pronto para adaptar uma skill.
+
+Fonte: github.com/anthropics/claude-for-legal.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#claudeai #legaltech #inteligenciaartificial #advocacia #advogados",pendente,,0,
+v3_ia_d4_reel,2026-11-23T19:30:00,reel,ia/l1_motion_dia4.mp4,"Antes de protocolar, peça ao Claude dois papéis: o juiz, para apontar o que está confuso ou faltando, e a parte contrária, para achar o ponto fraco. Ele devolve uma lista de fragilidades, da mais grave para a mais leve.
+
+Quem decide o que muda na peça é você.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#claudeai #peticao #inteligenciaartificial #advocacia #contencioso",pendente,,0,
+v3_ia_d4_post,2026-11-23T20:45:00,imagem,ia/l1_post_dia4.jpg,"O campo de mensagem do Claude, explicado em 6 pontos: anexar arquivos, Chat ou Cowork, modelo, esforço, ditado e modo de voz.
+
+A tela é de 15/11/2026. Os nomes dos modelos mudam com o tempo.
+
+Salva para consultar quando for usar.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#claudeai #inteligenciaartificial #advocacia #tecnologia #advogados",pendente,,0,
+v3_ia_d5_car,2026-11-24T12:15:00,carrossel,ia/l1_subir_01.jpg|ia/l1_subir_02.jpg|ia/l1_subir_03.jpg|ia/l1_subir_04.jpg|ia/l1_subir_05.jpg|ia/l1_subir_06.jpg|ia/l1_subir_07.jpg|ia/l1_subir_08.jpg|ia/l1_subir_09.jpg,"Do pedido solto à tarefa que roda sozinha no horário marcado: são 7 níveis de uso da IA no escritório. Em cada um, o carrossel mostra o que muda e como subir para o próximo.
+
+Em todos eles, o resultado continua sendo rascunho para revisão do advogado.
+
+Comenta SUBIR que eu te mando o PDF com o roteiro para subir um nível por semana.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#inteligenciaartificial #claudeai #advocacia #produtividade #advogados",pendente,,0,
+v3_ia_d5_reel,2026-11-24T19:30:00,reel,ia/l1_motion_dia5.mp4,"Processo longo, cliente novo e reunião amanhã. Com os documentos num projeto, o Claude monta a linha do tempo do caso com data, evento, quem praticou e a página. Você confere as páginas marcadas antes da reunião.
+
+Comenta SUBIR que eu te mando o roteiro para chegar nesse nível.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#claudeai #inteligenciaartificial #advocacia #processo #advogados",pendente,,0,
+v3_ia_d5_post,2026-11-24T20:45:00,imagem,ia/l1_post_dia5.jpg,"5 tarefas para tirar das suas mãos com IA: extrair dados de contratos, resumir processo longo citando as folhas, organizar as intimações da semana, fazer o primeiro rascunho de um e-mail ou notificação e comparar versões de contrato.
+
+Em todas, a revisão continua sendo sua.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#inteligenciaartificial #advocacia #produtividade #claudeai #advogados",pendente,,0,
+v3_ia_d1_reel_teste,2026-11-27T11:30:00,reel_teste,ia/l1_motion_dia1.mp4,"Três ajustes antes de pedir qualquer peça: projeto por cliente, instruções do projeto e documentos do caso no Contexto. Com isso, cada conversa já começa sabendo do caso.
+
+O resultado continua sendo um rascunho: a revisão é sua.
+
+Comenta CADERNO que eu te mando as instruções prontas.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#claudeai #inteligenciaartificial #advocacia #produtividade #advogados",pendente,,0,
+v3_ia_d2_reel_teste,2026-11-28T11:30:00,reel_teste,ia/l1_motion_dia2.mp4,"""Analise esse contrato"" quase sempre gera resposta de manual. O mesmo pedido, em 5 partes, muda o resultado: quem você é, o que quer, o formato, o limite e o que fazer depois.
+
+Teste com um contrato de dados fictícios antes de usar com cliente.
+
+Comenta CET que eu te mando o pedido completo.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#claudeai #prompt #inteligenciaartificial #advocacia #contratos",pendente,,0,
+v3_ia_d3_reel_teste,2026-11-29T11:30:00,reel_teste,ia/l1_motion_dia3.mp4,"Dez contratos, cinco bancos e uma tarde copiando números para a planilha. Com o pedido certo, o Claude monta a tabela com uma linha por contrato e a página de cada dado. A tarde que sobra vai para conferir.
+
+Salva este vídeo e testa com dados fictícios.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#direitobancario #claudeai #inteligenciaartificial #advocacia #produtividade",pendente,,0,
+v3_ia_d4_reel_teste,2026-11-30T11:30:00,reel_teste,ia/l1_motion_dia4.mp4,"Antes de protocolar, peça ao Claude dois papéis: o juiz, para apontar o que está confuso ou faltando, e a parte contrária, para achar o ponto fraco. Ele devolve uma lista de fragilidades, da mais grave para a mais leve.
+
+Quem decide o que muda na peça é você.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#claudeai #peticao #inteligenciaartificial #advocacia #contencioso",pendente,,0,
+v3_ia_d5_reel_teste,2026-12-01T11:30:00,reel_teste,ia/l1_motion_dia5.mp4,"Processo longo, cliente novo e reunião amanhã. Com os documentos num projeto, o Claude monta a linha do tempo do caso com data, evento, quem praticou e a página. Você confere as páginas marcadas antes da reunião.
+
+Comenta SUBIR que eu te mando o roteiro para chegar nesse nível.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#claudeai #inteligenciaartificial #advocacia #processo #advogados",pendente,,0,

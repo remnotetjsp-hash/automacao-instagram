@@ -72,9 +72,11 @@ def publicar(row):
     url = url_midia(row["arquivo"])
     p = {"caption": row["legenda"]}
     if row["tipo"] == "reel": p.update({"media_type": "REELS", "video_url": url, "share_to_feed": "true"})
+    elif row["tipo"] == "reel_teste":  # Reel de teste (trial reel): aparece primeiro para quem não segue; gradua sozinho se for bem
+        p.update({"media_type": "REELS", "video_url": url, "trial_params": json.dumps({"graduation_strategy": "SS_PERFORMANCE"})})
     else: p["image_url"] = url
     cid = http("POST", f"{UID}/media", p)["id"]
-    esperar(cid, video=row["tipo"] == "reel")
+    esperar(cid, video=row["tipo"] in ("reel", "reel_teste"))
     return http("POST", f"{UID}/media_publish", {"creation_id": cid})["id"]
 
 def ler_csv(path):

@@ -1777,7 +1777,7 @@ Fonte: telas do claude.ai (08/11/2026).
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#inteligenciaartificial #claudeai #advocacia #advogados #direitodigital",pendente,,0,
+#inteligenciaartificial #claudeai #advocacia #advogados #direitodigital",erro,,1,"HTTP 400: {""error"":{""message"":""Only photo or video can be accepted as media type."",""type"":""OAuthException"",""code"":9004,""error_subcode"":2207052,""is_transient"":false,""error_user_title"":""Media download has failed. The media URI doesn't meet our requirements."",""error_user_msg"":""The media could not be fe"
 v3_ia_1911_reel,2026-11-19T19:30:00,reel,ia/l1_motion_dia1.mp4,"Três ajustes antes de pedir qualquer peça: projeto por cliente, instruções do projeto e documentos do caso no Contexto. Com isso, cada conversa já começa sabendo do caso.
 
 O resultado continua sendo um rascunho: a revisão é sua.

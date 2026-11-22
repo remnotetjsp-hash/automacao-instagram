@@ -1817,7 +1817,7 @@ Fontes: Lei 11.419/2006, art. 4º, §§ 3º e 4º; CPC, arts. 219 e 224; comunic
 Leonardo Rezende
 Especialista em dívidas empresariais
 
-#prazos #advocacia #cnj #claudeai #advogados",pendente,,0,
+#prazos #advocacia #cnj #claudeai #advogados",erro,,1,"HTTP 400: {""error"":{""message"":""Timeout"",""type"":""OAuthException"",""code"":-2,""error_subcode"":2207003,""is_transient"":false,""error_user_title"":""Timeout"",""error_user_msg"":""It takes too long to download the media."",""fbtrace_id"":""Au5caKCojSXEgUAwcD400Ay""}}"
 v3_ia_d3_reel,2026-11-22T19:30:00,reel,ia/l1_motion_dia3.mp4,"Dez contratos, cinco bancos e uma tarde copiando números para a planilha. Com o pedido certo, o Claude monta a tabela com uma linha por contrato e a página de cada dado. A tarde que sobra vai para conferir.
 
 Salva este vídeo e testa com dados fictícios.

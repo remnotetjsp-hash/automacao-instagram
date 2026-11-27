@@ -375,3 +375,81 @@ Leonardo Rezende
 Especialista em dívidas empresariais
 
 #claudeai #inteligenciaartificial #advocacia #processo #advogados"
+v3_ia_d6_car,2026-11-27T12:15:00,carrossel,ia/l2_ccb_01.jpg|ia/l2_ccb_02.jpg|ia/l2_ccb_03.jpg|ia/l2_ccb_04.jpg|ia/l2_ccb_05.jpg|ia/l2_ccb_06.jpg|ia/l2_ccb_07.jpg|ia/l2_ccb_08.jpg,"Ler uma CCB inteira na mão leva tempo, e sempre escapa um número: a taxa anual que não bate, o valor liberado menor que o financiado, o aval do sócio lá na página 29.
+
+Eu uso uma skill no Claude que faz a primeira leitura e devolve a ficha do contrato com a página de cada dado, além de três contas de conferência. No carrossel está o passo a passo: instalar, anexar e pedir.
+
+É rascunho de trabalho: cada número é conferido na página indicada antes de entrar em peça.
+
+Comenta CCB que eu te mando no direct o arquivo da skill e o PDF de instalação.
+
+Fontes: Lei 10.931/2004, art. 28; STJ, Súmula 541. Exemplo com dados fictícios.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#direitobancario #claudeai #advocacia #contratos #inteligenciaartificial"
+v3_ia_d6_post,2026-11-27T20:45:00,imagem,ia/l2_ccb_post_01.jpg,"Três números da CCB que eu confiro primeiro: a taxa anual contra 12 vezes a mensal, o valor liberado contra o financiado e o CET contra a taxa de juros.
+
+Quando algum deles não fecha, vale abrir o contrato na página e entender por quê.
+
+Comenta CCB que eu te mando no direct a skill que monta a ficha da CCB e o PDF de instalação.
+
+Fontes: STJ, Súmula 541; Lei 10.931/2004, art. 28.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#direitobancario #ccb #juros #advocacia #dividasempresariais"
+v3_ia_d7_car,2026-11-28T12:15:00,carrossel,ia/l2_esaj_01.jpg|ia/l2_esaj_02.jpg|ia/l2_esaj_03.jpg|ia/l2_esaj_04.jpg|ia/l2_esaj_05.jpg|ia/l2_esaj_06.jpg|ia/l2_esaj_07.jpg|ia/l2_esaj_08.jpg,"Abrir processo por processo no e-SAJ come a manhã. Número, clica, rola até as movimentações, anota, volta.
+
+O Claude no Chrome, a extensão do Claude que navega por você, faz a consulta pública por OAB e devolve uma tabela com número, classe, vara, última movimentação e data. No carrossel está o passo a passo.
+
+Só consulta pública: sem login e sem abrir autos. Verificação de robô é com você, e a tabela não substitui a intimação.
+
+Comenta ESAJ que eu te mando no direct o PDF com o pedido pronto por OAB, por nome da parte e por lista de números, mais o checklist de conferência.
+
+Fonte: esaj.tjsp.jus.br, Consulta de Processos do 1º Grau. Exemplo com dados fictícios.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#esaj #tjsp #claudeai #advocacia #inteligenciaartificial"
+v3_ia_d7_post,2026-11-28T20:45:00,imagem,ia/l2_esaj_post_01.jpg,"A consulta pública do e-SAJ responde muita coisa sem login: dá para buscar pelo número do processo, pelo nome ou documento da parte e pelo advogado ou OAB, e ver as movimentações.
+
+O que não aparece: processo em segredo de justiça, os autos (que em regra pedem login ou senha do processo) e o prazo já calculado.
+
+Comenta ESAJ que eu te mando no direct o PDF com o pedido pronto e o checklist de conferência.
+
+Fonte: esaj.tjsp.jus.br, Consulta de Processos do 1º Grau (20/11/2026).
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#esaj #tjsp #advocacia #processo #advogados"
+v3_ia_d8_car,2026-11-29T12:15:00,carrossel,ia/l2_mapa_01.jpg|ia/l2_mapa_02.jpg|ia/l2_mapa_03.jpg|ia/l2_mapa_04.jpg|ia/l2_mapa_05.jpg|ia/l2_mapa_06.jpg|ia/l2_mapa_07.jpg|ia/l2_mapa_08.jpg,"Quando o empresário chega no escritório, a dívida vem em pedaços: CCB em PDF, extrato com outra data, protesto no WhatsApp. E quase sempre falta a informação mais importante: quem assinou como avalista.
+
+No carrossel, o passo a passo para o Claude montar o mapa de dívidas da empresa: uma linha por dívida, o que é do CNPJ e o que atinge o CPF dos sócios, e uma sugestão de prioridade.
+
+Os saldos são os dos documentos, sem atualização. O mapa organiza; a estratégia é do advogado.
+
+Comenta MAPA que eu te mando no direct a skill, a planilha modelo e o PDF de instalação.
+
+Exemplo com dados fictícios.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#dividasempresariais #gestaodepassivos #claudeai #advocacia #direitobancario"
+v3_ia_d8_post,2026-11-29T20:45:00,imagem,ia/l2_mapa_post_01.jpg,"A dívida é da empresa, mas o aval ou a fiança põem o CPF do sócio na mesma conta.
+
+Aval é garantia no título, como a CCB. Fiança é garantia no contrato, e o fiador pode pedir que primeiro se cobrem os bens da empresa, salvo se renunciou ou assinou como devedor solidário. Para dar qualquer um dos dois, o sócio casado precisa da autorização do cônjuge, exceto na separação absoluta. E a recuperação judicial da empresa não impede a cobrança contra avalistas e fiadores.
+
+Comenta MAPA que eu te mando no direct a skill, a planilha modelo e o PDF de instalação.
+
+Fontes: Código Civil, arts. 827, 828, 899 e 1.647, III; STJ, Súmulas 26 e 581.
+
+Leonardo Rezende
+Especialista em dívidas empresariais
+
+#aval #fianca #dividasempresariais #direitoempresarial #advocacia"

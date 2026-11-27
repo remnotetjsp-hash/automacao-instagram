@@ -69,13 +69,21 @@ def publicar(row):
         pid = http("POST", f"{UID}/media", {"media_type": "CAROUSEL", "children": ",".join(filhos), "caption": row["legenda"]})["id"]
         esperar(pid)
         return http("POST", f"{UID}/media_publish", {"creation_id": pid})["id"]
-    url = url_midia(row["arquivo"])
+    partes = [x for x in row["arquivo"].split("|") if x.strip()]
+    url = url_midia(partes[0])
     p = {"caption": row["legenda"]}
+    if row["tipo"] in ("reel", "reel_teste") and len(partes) > 1:
+        p["cover_url"] = url_midia(partes[1])  # capa do reel: segundo arquivo, depois do |
     if row["tipo"] == "reel": p.update({"media_type": "REELS", "video_url": url, "share_to_feed": "true"})
     elif row["tipo"] == "reel_teste":  # Reel de teste (trial reel): aparece primeiro para quem não segue; gradua sozinho se for bem
         p.update({"media_type": "REELS", "video_url": url, "trial_params": json.dumps({"graduation_strategy": "SS_PERFORMANCE"})})
     else: p["image_url"] = url
-    cid = http("POST", f"{UID}/media", p)["id"]
+    try:
+        cid = http("POST", f"{UID}/media", p)["id"]
+    except Exception:
+        if "cover_url" not in p: raise
+        p.pop("cover_url")  # se a capa for recusada, publica sem capa
+        cid = http("POST", f"{UID}/media", p)["id"]
     esperar(cid, video=row["tipo"] in ("reel", "reel_teste"))
     return http("POST", f"{UID}/media_publish", {"creation_id": cid})["id"]
 

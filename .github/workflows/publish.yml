@@ -4,6 +4,11 @@ on:
     # minutos quebrados: o GitHub atrasa/descarta agendamentos no minuto 00 em horários de pico
     - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
+    inputs:
+      duracao_min:
+        description: "Minutos de vigia (padrão 340)"
+        required: false
+        default: "340"
 permissions:
   contents: write
   actions: write
@@ -22,5 +27,5 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           MEDIA_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/media
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DURACAO_MIN: "340"
+          DURACAO_MIN: ${{ inputs.duracao_min || '340' }}
         run: bash scripts/vigia.sh

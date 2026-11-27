@@ -6,30 +6,21 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: publicar
   cancel-in-progress: false
 jobs:
   publicar:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
-      - name: Publicar o que está na hora
+      - name: Vigia (confere a fila a cada 4 min por ~5h40 e encadeia a próxima execução)
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           MEDIA_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/media
-        run: python3 scripts/publish.py
-      - name: Coletar métricas do Instagram (1x por dia, à noite)
-        env:
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
-          IG_TOKEN: ${{ secrets.IG_TOKEN }}
-        run: python3 scripts/metricas.py
-      - name: Salvar status da fila
-        run: |
-          git config user.name "publicador"
-          git config user.email "publicador@users.noreply.github.com"
-          git add queue/fila.csv
-          git add queue/metricas.csv queue/metricas_conta.csv 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "status da fila" && git pull --rebase -q && git push -q)
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DURACAO_MIN: "340"
+        run: bash scripts/vigia.sh
